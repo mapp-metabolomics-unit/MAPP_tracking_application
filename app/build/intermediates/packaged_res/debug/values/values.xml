@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
     <color name="purple_200">#216EF3</color>
     <color name="purple_500">#2196F3</color>
     <color name="purple_700">#216EF3</color>
     <color name="teal_200">#1BEDED</color>
     <color name="teal_700">#36BEF4</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">DBGI tracking</string>
+    <string name="app_name">MAPP</string>
     <style name="Theme.DBGITracking" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

@@ -1,4 +1,4 @@
-org.example.dbgitracking
+org.example.mapptracking
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1416,6 +1416,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2964,8 +2965,6 @@ drawable ic_back_arrow
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
-drawable ic_launcher_background
-drawable ic_launcher_foreground
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2995,6 +2994,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable minilogo_mapp
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3049,28 +3049,21 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
-id AliquotsButton
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
-id ExtractionButton
 id FUNCTION
-id FindButton
-id InjectionButton
-id LocationButton
 id META
-id MoveButton
 id NO_DEBUG
+id PrintButton
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id SampleButton
-id SignalingButton
 id TOP_END
 id TOP_START
-id WeightingButton
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -3150,6 +3143,7 @@ id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
 id baseline
+id batchInformation
 id beginOnFirstDraw
 id beginning
 id bestChoice
@@ -3159,7 +3153,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id buttonNewBatch
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3175,8 +3168,8 @@ id chain2
 id chains
 id checkbox
 id checked
+id chooseLabbookLabel
 id choosePrinter
-id chooseWeightLabel
 id chronometer
 id circle_center
 id clear_text
@@ -3254,7 +3247,6 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id extractionInformation
-id extractionMethodBatch
 id extractionMethodBox
 id extractionMethodLabel
 id extractionMethodSpinner
@@ -3401,7 +3393,6 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
-id newExtractionMethod
 id newInjectionMethod
 id noScroll
 id noState
@@ -3458,7 +3449,6 @@ id sawtooth
 id scale
 id scanBoxLabel
 id scanButtonAliquot
-id scanButtonBatch
 id scanButtonBox
 id scanButtonExtract
 id scanButtonRack

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "org.example.dbgitracking.app-mergeDebugResources-41:/values-zu/values-zu.xml",
+            "outputFile": "org.example.mapptracking.app-mergeDebugResources-41:/values-zu/values-zu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\edoua\\.gradle\\caches\\transforms-3\\bec12648b5c289b68eed868060cdba26\\transformed\\material-1.9.0\\res\\values-zu\\values-zu.xml",

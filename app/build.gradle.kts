@@ -6,23 +6,23 @@ plugins {
 android {
     signingConfigs {
         create("release") {
-            keyAlias = "dbgikey"
-            keyPassword = "dbgi_dbgi"
-            storePassword = "dbgi_dbgi"
+            keyAlias = "mappikey"
+            keyPassword = "mapp_mapp"
+            storePassword = "mapp_mapp"
             storeFile =
-                file("C:\\Users\\edoua\\Desktop\\DBGI_project\\DBGI_tracking_android\\dbgikey.kts")
+                file("C:\\Users\\edoua\\Desktop\\plateforme_metabo\\MAPP_tracking_application\\mappkey.kts")
         }
     }
-    namespace = "org.example.dbgitracking"
+    namespace = "org.example.mapptracking"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "org.example.dbgitracking"
+        applicationId = "org.example.mapptracking"
         minSdk = 29
         //noinspection OldTargetApi
         targetSdk = 33
         versionCode = 1
-        versionName = "0.6"
+        versionName = "0.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

@@ -5,51 +5,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/buttonNewBatch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Generate a batch identifier"
-        android:textColor="#212121"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints" />
 
     <TextView
-        android:id="@+id/extractionMethodLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Extraction method"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/buttonNewBatch"
-        android:layout_marginTop="16dp"
-        tools:ignore="HardcodedText" />
-
-    <TextView
-        android:id="@+id/newExtractionMethod"
+        android:id="@+id/batchInformation"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="No suitable referenced method? Add it by following this link, click on the top left arrow and come again in this mode. The extraction will appear"
         android:textSize="12sp"
+        android:text="Select a batch:"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/extractionMethodLabel"
+        android:gravity="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        tools:ignore="HardcodedText,VisualLintLongText" />
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/extractionMethodLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab book number:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        tools:ignore="HardcodedText" />
 
     <Spinner
         android:id="@+id/extractionMethodSpinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minHeight="32dp"
-        app:layout_constraintTop_toBottomOf="@id/newExtractionMethod"
+        app:layout_constraintTop_toBottomOf="@id/extractionMethodLabel"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="8dp"
@@ -63,6 +53,7 @@
         android:textSize="12sp"
         android:textStyle="bold"
         android:visibility="invisible"
+        android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/extractionMethodSpinner"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,7 +67,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:hint="Solvent volume (microliter)"
         android:visibility="invisible"
         android:inputType="numberDecimal"
         android:minHeight="48dp"
@@ -90,7 +80,7 @@
         android:id="@+id/extractionMethodBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Scan the box's QR code"
+        android:text="Scan the sample's code"
         android:textSize="20sp"
         android:textStyle="bold"
         android:visibility="invisible"
@@ -101,68 +91,15 @@
         tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/scanButtonBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Value"
-        android:visibility="invisible"
-        app:layout_constraintTop_toBottomOf="@id/extractionMethodBox"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        tools:ignore="HardcodedText" />
-
-    <TextView
-        android:id="@+id/extractionMethodBatch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Scan the batch's QR code"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:visibility="invisible"
-        app:layout_constraintTop_toBottomOf="@id/scanButtonBox"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp"
-        tools:ignore="HardcodedText" />
-
-    <Button
-        android:id="@+id/scanButtonBatch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Value"
-        android:visibility="invisible"
-        app:layout_constraintTop_toBottomOf="@id/extractionMethodBatch"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        tools:ignore="HardcodedText" />
-
-    <Button
         android:id="@+id/scanButtonSample"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Begin to scan samples"
         android:visibility="invisible"
-        app:layout_constraintTop_toBottomOf="@id/scanButtonBatch"
+        app:layout_constraintTop_toBottomOf="@id/extractionMethodBox"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
-
-    <TextView
-        android:id="@+id/emptyPlace"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:visibility="invisible"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/scanButtonSample"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp"
-        android:layout_marginStart="15dp"
         tools:ignore="HardcodedText,MissingConstraints" />
 
     <androidx.camera.view.PreviewView

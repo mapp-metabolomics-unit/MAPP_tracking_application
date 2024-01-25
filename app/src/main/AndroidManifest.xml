@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.example.dbgitracking">
+    package="org.example.mapptracking"
+    tools:ignore="ExtraText">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -22,6 +23,7 @@
         android:required="false" />
 
     <application
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -43,19 +45,19 @@
             android:name=".SignalingManActivity"
             android:exported="false" />
         <activity
-            android:name=".SignalingScanActivity"
+            android:name=".`6PrintActivity`"
             android:exported="false" />
         <activity
-            android:name=".WaitConnectionActivity"
+            android:name=".`3_3WaitConnectionActivity`"
             android:exported="false" />
         <activity
-            android:name=".PermissionsActivity"
+            android:name=".`2PermissionsActivity`"
             android:exported="false" />
         <activity
-            android:name=".ManagePrinterActivity"
+            android:name=".`3_1ManagePrinterActivity`"
             android:exported="false" />
         <activity
-            android:name=".PrinterConnectActivity"
+            android:name=".`3PrinterConnectActivity`"
             android:exported="false" />
         <activity
             android:name=".AliquotsActivity"
@@ -66,7 +68,7 @@
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name=".SampleActivity"
+            android:name=".`5SampleActivity`"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
@@ -82,15 +84,15 @@
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name=".ExtractionActivity"
+            android:name=".`5SampleActivity`"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name=".HomePageActivity"
+            android:name=".`4HomePageActivity`"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".`1ConnectionActivity`"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="true">
             <intent-filter>
@@ -101,5 +103,6 @@
         </activity>
 
     </application>
+
 
 </manifest>

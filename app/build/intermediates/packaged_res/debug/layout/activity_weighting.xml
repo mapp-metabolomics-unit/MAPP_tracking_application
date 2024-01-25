@@ -7,10 +7,10 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/chooseWeightLabel"
+        android:id="@+id/chooseLabbookLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Choose the weight"
+        android:text="Choose the labbook"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
@@ -29,7 +29,7 @@
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/chooseWeightLabel"
+        app:layout_constraintTop_toBottomOf="@id/chooseLabbookLabel"
         tools:ignore="HardcodedText,MissingConstraints" />
 
     <TextView

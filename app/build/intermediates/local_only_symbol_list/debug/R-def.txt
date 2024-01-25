@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color ic_launcher_background
 color purple_200
 color purple_500
 color purple_700
@@ -8,22 +9,14 @@ color teal_200
 color teal_700
 color white
 drawable ic_back_arrow
-drawable ic_launcher_background
-drawable ic_launcher_foreground
-id AliquotsButton
-id ExtractionButton
-id FindButton
-id InjectionButton
-id LocationButton
-id MoveButton
+drawable minilogo_mapp
+id PrintButton
 id SampleButton
-id SignalingButton
-id WeightingButton
 id actionButton
 id aliquotsMethodLabel
-id buttonNewBatch
+id batchInformation
+id chooseLabbookLabel
 id choosePrinter
-id chooseWeightLabel
 id connectButton
 id connectText
 id connectionLabel
@@ -31,7 +24,6 @@ id connectionStatusTextView
 id emptyPlace
 id errorMessageTextView
 id extractionInformation
-id extractionMethodBatch
 id extractionMethodBox
 id extractionMethodLabel
 id extractionMethodSpinner
@@ -46,7 +38,6 @@ id manFindingLabel
 id manInput
 id manSignalingLabel
 id manualSignaling
-id newExtractionMethod
 id newInjectionMethod
 id numberInput
 id passwordEditText
@@ -57,7 +48,6 @@ id rackInformation
 id sampleMethodRack
 id scanBoxLabel
 id scanButtonAliquot
-id scanButtonBatch
 id scanButtonBox
 id scanButtonExtract
 id scanButtonRack

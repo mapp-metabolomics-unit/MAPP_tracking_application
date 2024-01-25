@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.example.dbgitracking"
+    package="org.example.mapptracking"
     android:versionCode="1"
-    android:versionName="0.6" >
+    android:versionName="0.1" >
 
     <uses-sdk
         android:minSdkVersion="29"
@@ -42,10 +42,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="org.example.dbgitracking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="org.example.mapptracking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="org.example.dbgitracking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="org.example.mapptracking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
     <uses-permission android:name="android.permission.REORDER_TASKS" />
 
     <queries>
@@ -73,65 +73,66 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.DBGITracking" >
+        android:theme="@style/Theme.DBGITracking"
+        android:usesCleartextTraffic="true" >
         <activity
-            android:name="org.example.dbgitracking.LocationActivity"
+            android:name="org.example.mapptracking.LocationActivity"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.MoveActivity"
+            android:name="org.example.mapptracking.MoveActivity"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.SignalingManActivity"
+            android:name="org.example.mapptracking.SignalingManActivity"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.SignalingScanActivity"
+            android:name="org.example.mapptracking.SignalingScanActivity"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.WaitConnectionActivity"
+            android:name="org.example.mapptracking.WaitConnectionActivity"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.PermissionsActivity"
+            android:name="org.example.mapptracking.PermissionsActivity"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.ManagePrinterActivity"
+            android:name="org.example.mapptracking.ManagePrinterActivity"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.PrinterConnectActivity"
+            android:name="org.example.mapptracking.PrinterConnectActivity"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.AliquotsActivity"
+            android:name="org.example.mapptracking.AliquotsActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.SignalingActivity"
+            android:name="org.example.mapptracking.SignalingActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.SampleActivity"
+            android:name="org.example.mapptracking.SampleActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.WeightingActivity"
+            android:name="org.example.mapptracking.WeightingActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.FindActivity"
+            android:name="org.example.mapptracking.FindActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.InjectionActivity"
+            android:name="org.example.mapptracking.InjectionActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.ExtractionActivity"
+            android:name="org.example.mapptracking.ExtractionActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.HomePageActivity"
+            android:name="org.example.mapptracking.HomePageActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name="org.example.dbgitracking.MainActivity"
+            android:name="org.example.mapptracking.MainActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="true" >
             <intent-filter>
@@ -166,7 +167,7 @@
 
         <provider
             android:name="com.google.mlkit.common.internal.MlKitInitProvider"
-            android:authorities="org.example.dbgitracking.mlkitinitprovider"
+            android:authorities="org.example.mapptracking.mlkitinitprovider"
             android:exported="false"
             android:initOrder="99" />
 
@@ -181,7 +182,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="org.example.dbgitracking.androidx-startup"
+            android:authorities="org.example.mapptracking.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

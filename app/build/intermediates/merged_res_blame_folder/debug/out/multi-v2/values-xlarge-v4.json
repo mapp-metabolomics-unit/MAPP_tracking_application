@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "org.example.dbgitracking.app-mergeDebugResources-41:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "org.example.mapptracking.app-mergeDebugResources-41:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\edoua\\.gradle\\caches\\transforms-3\\d7df77ebda5981800df5740c98f42e89\\transformed\\appcompat-1.6.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",

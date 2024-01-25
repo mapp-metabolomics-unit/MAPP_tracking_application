@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:2:1-105:12
-INJECTED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:2:1-105:12
-INJECTED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:2:1-105:12
-INJECTED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:2:1-105:12
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-108:12
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-108:12
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-108:12
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-108:12
 MERGED from [androidx.fragment:fragment-ktx:1.5.5] C:\Users\edoua\.gradle\caches\transforms-3\3e4b8bd95b23f1a39221f8e5c8ad39b3\transformed\jetified-fragment-ktx-1.5.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:2:1-28:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\bec12648b5c289b68eed868060cdba26\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
@@ -85,18 +85,20 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\edoua\.
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\edoua\.gradle\caches\transforms-3\012e6fcf9ce42d08a73395139db6b9e1\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\edoua\.gradle\caches\transforms-3\c70e877c022ec7d73b87e648760bbc49\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
 	package
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:4:5-39
-		INJECTED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:11-69
+	tools:ignore
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:5:5-29
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:7:5-67
 MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:26:5-67
 MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\eeabb11cfa0d4418bb33f43f7d28e2cf\transformed\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:24:5-67
@@ -106,25 +108,25 @@ MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\edoua\.gr
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:7:22-64
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:7:5-65
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:8:5-65
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:7:22-62
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:8:22-62
 uses-permission#android.permission.FLASHLIGHT
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:8:5-69
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:9:5-69
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:8:22-66
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:9:22-66
 uses-permission#android.permission.BLUETOOTH_CONNECT
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:9:5-76
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:10:5-76
 MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:19:5-76
 MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:19:5-76
 MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:21:5-76
 MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:21:5-76
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:9:22-73
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:10:22-73
 uses-permission#android.permission.BLUETOOTH_SCAN
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:10:5-73
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:11:5-73
 MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:20:5-23:31
 MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:20:5-23:31
 MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:22:5-25:31
@@ -134,15 +136,15 @@ MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.grad
 	tools:targetApi
 		ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:23:9-28
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:10:22-70
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:11:22-70
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:11:5-79
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:12:5-79
 MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:24:5-79
 MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:11:22-76
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:12:22-76
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:12:5-68
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:13:5-68
 MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:17:5-68
 MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:17:5-68
 MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:10:5-12:38
@@ -150,28 +152,28 @@ MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.grad
 	android:maxSdkVersion
 		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:12:9-35
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:12:22-65
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:13:22-65
 uses-feature#android.hardware.bluetooth
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:14:5-16:36
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:15:5-17:36
 	android:required
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:16:9-33
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:17:9-33
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:15:9-50
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:16:9-50
 uses-feature#android.hardware.bluetooth_le
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:17:5-19:36
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:18:5-20:36
 	android:required
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:19:9-33
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:20:9-33
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:18:9-53
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:19:9-53
 uses-feature#android.hardware.camera
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:20:5-22:36
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:21:5-23:36
 	android:required
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:22:9-33
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:23:9-33
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:21:9-47
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:22:9-47
 application
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:24:5-103:19
-INJECTED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:24:5-103:19
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:25:5-105:19
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:25:5-105:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\bec12648b5c289b68eed868060cdba26\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\bec12648b5c289b68eed868060cdba26\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\edoua\.gradle\caches\transforms-3\8e9c18a67f8d8f077699c83f6d571299\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -219,165 +221,167 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\edoua\.gradle\cach
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\edoua\.gradle\caches\transforms-3\c70e877c022ec7d73b87e648760bbc49\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\edoua\.gradle\caches\transforms-3\c70e877c022ec7d73b87e648760bbc49\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
 	android:extractNativeLibs
-		INJECTED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
+	android:roundIcon
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:34:9-54
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:28:9-83
+	android:icon
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:31:9-43
+	android:networkSecurityConfig
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:33:9-69
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:33:9-35
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:35:9-35
 	android:label
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:30:9-41
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:32:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:28:9-54
-	android:roundIcon
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:32:9-54
-	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:26:9-83
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:30:9-54
 	tools:targetApi
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:35:9-29
-	android:icon
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:29:9-43
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:37:9-29
 	android:allowBackup
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:27:9-35
 	android:theme
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:34:9-50
-	android:networkSecurityConfig
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:31:9-69
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:36:9-50
 	android:dataExtractionRules
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:27:9-65
-activity#org.example.dbgitracking.LocationActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:36:9-38:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:29:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:26:9-44
+activity#org.example.mapptracking.LocationActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:38:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:37:13-45
-activity#org.example.dbgitracking.MoveActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:39:9-41:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:39:13-45
+activity#org.example.mapptracking.MoveActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:41:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:40:13-41
-activity#org.example.dbgitracking.SignalingManActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:42:9-44:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:42:13-41
+activity#org.example.mapptracking.SignalingManActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:44:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:43:13-49
-activity#org.example.dbgitracking.SignalingScanActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:45:9-47:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:45:13-49
+activity#org.example.mapptracking.SignalingScanActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:47:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:46:13-50
-activity#org.example.dbgitracking.WaitConnectionActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:48:9-50:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:48:13-50
+activity#org.example.mapptracking.WaitConnectionActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:50:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:49:13-51
-activity#org.example.dbgitracking.PermissionsActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:51:9-53:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:51:13-51
+activity#org.example.mapptracking.PermissionsActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:53:9-55:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:53:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:52:13-48
-activity#org.example.dbgitracking.ManagePrinterActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:54:9-56:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:54:13-48
+activity#org.example.mapptracking.ManagePrinterActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:56:9-58:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:56:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:55:13-50
-activity#org.example.dbgitracking.PrinterConnectActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:57:9-59:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:57:13-50
+activity#org.example.mapptracking.PrinterConnectActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:59:9-61:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:59:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:58:13-51
-activity#org.example.dbgitracking.AliquotsActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:60:9-63:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:60:13-51
+activity#org.example.mapptracking.AliquotsActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:62:9-65:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:63:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:65:13-37
 	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:62:13-87
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:64:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:61:13-45
-activity#org.example.dbgitracking.SignalingActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:64:9-67:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:63:13-45
+activity#org.example.mapptracking.SignalingActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:66:9-69:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:67:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:69:13-37
 	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:66:13-87
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:68:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:65:13-46
-activity#org.example.dbgitracking.SampleActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:68:9-71:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:67:13-46
+activity#org.example.mapptracking.SampleActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:70:9-73:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:71:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:73:13-37
 	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:70:13-87
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:72:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:69:13-43
-activity#org.example.dbgitracking.WeightingActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:72:9-75:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:71:13-43
+activity#org.example.mapptracking.WeightingActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:74:9-77:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:75:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:77:13-37
 	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:74:13-87
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:76:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:73:13-46
-activity#org.example.dbgitracking.FindActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:76:9-79:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:75:13-46
+activity#org.example.mapptracking.FindActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:78:9-81:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:79:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:81:13-37
 	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:78:13-87
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:80:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:77:13-41
-activity#org.example.dbgitracking.InjectionActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:80:9-83:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:79:13-41
+activity#org.example.mapptracking.InjectionActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:82:9-85:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:83:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:85:13-37
 	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:82:13-87
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:84:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:81:13-46
-activity#org.example.dbgitracking.ExtractionActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:84:9-87:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:83:13-46
+activity#org.example.mapptracking.ExtractionActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:86:9-89:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:87:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:89:13-37
 	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:86:13-87
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:88:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:85:13-47
-activity#org.example.dbgitracking.HomePageActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:88:9-91:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:87:13-47
+activity#org.example.mapptracking.HomePageActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:90:9-93:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:91:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:93:13-37
 	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:90:13-87
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:92:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:89:13-45
-activity#org.example.dbgitracking.MainActivity
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:92:9-101:20
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:91:13-45
+activity#org.example.mapptracking.MainActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:94:9-103:20
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:95:13-36
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:97:13-36
 	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:94:13-87
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:96:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:93:13-41
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:95:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:96:13-100:29
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:98:13-102:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:97:17-69
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:99:17-69
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:97:25-66
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:99:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:99:17-77
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:101:17-77
 	android:name
-		ADDED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml:99:27-74
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:101:27-74
 uses-sdk
-INJECTED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
 MERGED from [androidx.fragment:fragment-ktx:1.5.5] C:\Users\edoua\.gradle\caches\transforms-3\3e4b8bd95b23f1a39221f8e5c8ad39b3\transformed\jetified-fragment-ktx-1.5.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.5.5] C:\Users\edoua\.gradle\caches\transforms-3\3e4b8bd95b23f1a39221f8e5c8ad39b3\transformed\jetified-fragment-ktx-1.5.5\AndroidManifest.xml:20:5-22:41
 MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:6:5-8:41
@@ -539,9 +543,9 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\edo
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\edoua\.gradle\caches\transforms-3\c70e877c022ec7d73b87e648760bbc49\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\edoua\.gradle\caches\transforms-3\c70e877c022ec7d73b87e648760bbc49\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
-		INJECTED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\edoua\Desktop\DBGI_project\DBGI_tracking_android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:10:5-12:40
 	tools:ignore
@@ -678,7 +682,7 @@ ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3
 		ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-permission#org.example.dbgitracking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#org.example.mapptracking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
@@ -688,7 +692,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-uses-permission#org.example.dbgitracking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#org.example.mapptracking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:26:22-94

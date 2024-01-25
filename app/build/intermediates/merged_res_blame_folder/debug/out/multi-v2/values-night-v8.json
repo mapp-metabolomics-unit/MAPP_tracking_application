@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "org.example.dbgitracking.app-mergeDebugResources-41:/values-night-v8/values-night-v8.xml",
+            "outputFile": "org.example.mapptracking.app-mergeDebugResources-41:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\edoua\\.gradle\\caches\\transforms-3\\d7df77ebda5981800df5740c98f42e89\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\edoua\\Desktop\\DBGI_project\\DBGI_tracking_android\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\edoua\\Desktop\\plateforme_metabo\\MAPP_tracking_application\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

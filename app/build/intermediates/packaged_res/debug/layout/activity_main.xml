@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to DBGI tracking application! Please enter your DBGI directus credentials."
+        android:text="Welcome to MAPP tracking application! Please enter your NocoDB credentials."
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginBottom="16dp"

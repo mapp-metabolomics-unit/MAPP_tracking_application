@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "org.example.dbgitracking.app-mergeDebugResources-41:/values-v28/values-v28.xml",
+            "outputFile": "org.example.mapptracking.app-mergeDebugResources-41:/values-v28/values-v28.xml",
             "map": [
                 {
                     "source": "C:\\Users\\edoua\\.gradle\\caches\\transforms-3\\64bca5d1810ed0d0b0563c9d54e630a4\\transformed\\jetified-core-1.5.0\\res\\values-v28\\values.xml",

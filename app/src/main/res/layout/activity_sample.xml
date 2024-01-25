@@ -5,55 +5,116 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <TextView
-        android:id="@+id/sampleMethodRack"
+        android:id="@+id/batchSpinnerLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="Select a batch:"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/batchSpinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Scan the rack's QR code"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:minHeight="32dp"
+        app:layout_constraintTop_toBottomOf="@id/batchSpinnerLabel"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="8dp"
-        tools:ignore="HardcodedText,MissingConstraints,VisualLintOverlap" />
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
 
-    <Button
-        android:id="@+id/scanButtonRack"
+    <TextView
+        android:id="@+id/batchSpinnerInformation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/batchSpinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/labBookSpinnerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab book number:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/batchSpinnerInformation"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Spinner
+        android:id="@+id/labBookSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:minHeight="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labBookSpinnerLabel"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/labBookSpinnerInformation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/labBookSpinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/pageNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Value"
-        android:textColor="#212121"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/sampleMethodRack"
-        tools:ignore="HardcodedText,VisualLintOverlap" />
-
-    <TextView
-        android:id="@+id/emptyPlace"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
         android:visibility="invisible"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/scanButtonRack"
-        app:layout_constraintStart_toStartOf="parent"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp"
-        android:layout_marginStart="15dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labBookSpinnerInformation"
+        tools:ignore="HardcodedText,LabelFor,MissingConstraints"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/scanButtonSample"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Begin to scan samples"
         android:visibility="invisible"
-        android:text="Begin to scan field samples"
-        app:layout_constraintTop_toBottomOf="@id/emptyPlace"
+        app:layout_constraintTop_toBottomOf="@id/pageNumber"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="16dp"
         tools:ignore="HardcodedText,MissingConstraints" />
 
     <androidx.camera.view.PreviewView
@@ -83,7 +144,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -40,7 +40,7 @@ class `5SampleActivity` : AppCompatActivity() {
     private lateinit var batchSpinnerLabel: TextView
     private lateinit var batchSpinner: Spinner
     private lateinit var batchSpinnerInformation: TextView
-    private lateinit var labBookLabel: TextView
+    private lateinit var labBookSpinnerLabel: TextView
     private lateinit var labBookSpinner: Spinner
     private lateinit var labBookSpinnerInformation: TextView
     private lateinit var pageNumber: EditText
@@ -57,7 +57,7 @@ class `5SampleActivity` : AppCompatActivity() {
     @SuppressLint("CutPasteId", "MissingInflatedId", "SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_extraction)
+        setContentView(R.layout.activity_sample)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_back_arrow)
@@ -66,7 +66,7 @@ class `5SampleActivity` : AppCompatActivity() {
         batchSpinnerLabel = findViewById(R.id.batchSpinnerLabel)
         batchSpinner = findViewById(R.id.batchSpinner)
         batchSpinnerInformation = findViewById(R.id.batchSpinnerInformation)
-        labBookLabel = findViewById(R.id.labBookLabel)
+        labBookSpinnerLabel = findViewById(R.id.labBookSpinnerLabel)
         labBookSpinner = findViewById(R.id.labBookSpinner)
         labBookSpinnerInformation = findViewById(R.id.labBookSpinnerInformation)
         pageNumber = findViewById(R.id.pageNumber)
@@ -75,10 +75,44 @@ class `5SampleActivity` : AppCompatActivity() {
         flashlightButton = findViewById(R.id.flashlightButton)
         scanStatus = findViewById(R.id.scanStatus)
 
+        // Fetch values and populate spinner
+        fetchValuesAndPopulateBatchSpinner()
 
+        batchSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                if (position > 0) { // Check if a valid option (not "Choose an option") is selected
+                    labBookSpinnerLabel.visibility = View.VISIBLE
+                    labBookSpinner.visibility = View.VISIBLE
+                } else {
+                    labBookSpinnerLabel.visibility = View.INVISIBLE
+                    labBookSpinner.visibility = View.INVISIBLE
+                }
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+                // No action needed
+            }
+        }
+
+        // Fetch values and populate spinner
+        fetchValuesAndPopulatelLabBookSpinner()
+
+        labBookSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                if (position > 0) { // Check if a valid option (not "Choose an option") is selected
+                    pageNumber.visibility = View.VISIBLE
+                } else {
+                    pageNumber.visibility = View.INVISIBLE
+                }
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+                // No action needed
+            }
+        }
 
         // Add a TextWatcher to the numberInput for real-time validation. Permits to constrain the user entry from 47.5 to 52.5
-        volumeInput.addTextChangedListener(object : TextWatcher {
+        pageNumber.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
 
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
@@ -90,33 +124,14 @@ class `5SampleActivity` : AppCompatActivity() {
                 val bigNumber = maxPage
 
                 if (inputNumber != null && inputNumber >= smallNumber && inputNumber <= bigNumber) {
-                    volumeInput.setBackgroundResource(android.R.color.transparent) // Set background to transparent if valid
-                    extractionMethodBox.visibility = View.VISIBLE
+                    pageNumber.setBackgroundResource(android.R.color.transparent) // Set background to transparent if valid
                     scanButtonSample.visibility = View.VISIBLE
                 } else {
-                    volumeInput.setBackgroundResource(android.R.color.holo_red_light) // Set background to red if not valid
-                    extractionMethodBox.visibility = View.INVISIBLE
+                    pageNumber.setBackgroundResource(android.R.color.holo_red_light) // Set background to red if not valid
                     scanButtonSample.visibility = View.INVISIBLE
                 }
             }
         })
-
-        // Fetch values and populate spinner
-        fetchValuesAndPopulateSpinner()
-
-        extractionMethodSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                if (position > 0) { // Check if a valid option (not "Choose an option") is selected
-                    volumeInput.visibility = View.VISIBLE
-                } else {
-                    volumeInput.visibility = View.INVISIBLE
-                }
-            }
-
-            override fun onNothingSelected(parent: AdapterView<*>?) {
-                // No action needed
-            }
-        }
 
         // Set up button click listener for Object QR Scanner
         scanButtonSample.setOnClickListener {
@@ -125,9 +140,9 @@ class `5SampleActivity` : AppCompatActivity() {
             previewView.visibility = View.VISIBLE
             scanStatus.text = "Scan the sample"
             flashlightButton.visibility = View.VISIBLE
-            extractionMethodSpinner.visibility = View.INVISIBLE
-            volumeInput.visibility = View.INVISIBLE
-            extractionMethodLabel.visibility = View.INVISIBLE
+            labBookSpinner.visibility = View.INVISIBLE
+            pageNumber.visibility = View.INVISIBLE
+            labBookSpinnerLabel.visibility = View.INVISIBLE
             scanButtonSample.visibility = View.INVISIBLE
             QRCodeScannerUtility.initialize(this, previewView, flashlightButton) { scannedSample ->
 
@@ -136,13 +151,237 @@ class `5SampleActivity` : AppCompatActivity() {
                 isQrScannerActive = false
                 previewView.visibility = View.INVISIBLE
                 flashlightButton.visibility = View.INVISIBLE
-                extractionMethodSpinner.visibility = View.VISIBLE
-                volumeInput.visibility = View.VISIBLE
-                extractionMethodLabel.visibility = View.VISIBLE
+                labBookSpinner.visibility = View.VISIBLE
+                pageNumber.visibility = View.VISIBLE
+                labBookSpinnerLabel.visibility = View.VISIBLE
                 scanButtonSample.visibility = View.VISIBLE
                 scanButtonSample.text = scannedSample
                 scanStatus.text = ""
                 manageScan()
+            }
+        }
+    }
+
+    private fun fetchValuesAndPopulateBatchSpinner() {
+        val accessToken = intent.getStringExtra("ACCESS_TOKEN").toString()
+        val tableId = "mt2q0qk45cqaqjo" // Replace with your table ID
+        val viewId = "vwekmipn51fus9j0" // Replace with your view ID
+        val apiUrl = "http://134.21.20.118:8080/api/v2/tables/$tableId/records?viewId=$viewId"
+        val url = URL(apiUrl)
+
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val urlConnection = withContext(Dispatchers.IO) {
+                    url.openConnection() as HttpURLConnection
+                }
+                urlConnection.requestMethod = "GET"
+                urlConnection.setRequestProperty("accept", "application/json")
+                urlConnection.setRequestProperty("xc-auth", accessToken)
+                urlConnection.setRequestProperty("xc-token", accessToken)
+
+                withContext(Dispatchers.IO) {
+                    urlConnection.connect()
+                }
+
+                val responseCode = urlConnection.responseCode
+
+                if (responseCode == HttpURLConnection.HTTP_OK) {
+                    val inputStream = urlConnection.inputStream
+                    val bufferedReader = BufferedReader(InputStreamReader(inputStream))
+                    val response = StringBuilder()
+                    println(response)
+                    var line: String?
+
+                    while (withContext(Dispatchers.IO) {
+                            bufferedReader.readLine()
+                        }.also { line = it } != null) {
+                        response.append(line)
+                    }
+
+                    withContext(Dispatchers.IO) {
+                        bufferedReader.close()
+                    }
+
+                    // Parse JSON response
+                    val jsonArray = JSONObject(response.toString()).getJSONArray("list")
+                    val values = ArrayList<String>()
+                    val descriptions = HashMap<String, String>()
+                    val pageNumbers = HashMap<String, String>()
+
+                    // Add "Choose an option" to the list of values
+                    values.add("Choose an option")
+
+                    for (i in 0 until jsonArray.length()) {
+                        val jsonObject = jsonArray.getJSONObject(i)
+                        val value = jsonObject.getString("Batches_ID")
+                        val description = jsonObject.getString("Batch Short Name")
+                        val pageNumber = jsonObject.getString("MAPP_Project Short description")
+                        values.add(value)
+                        descriptions[value] = description
+                        pageNumbers[value] = pageNumber
+                    }
+
+                    runOnUiThread {
+                        // Populate spinner with values
+                        choices = values // Update choices list
+                        val adapter = ArrayAdapter(
+                            this@`5SampleActivity`,
+                            android.R.layout.simple_spinner_item,
+                            values
+                        )
+                        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+                        extractionMethodSpinner.adapter = adapter
+
+                        // Add an OnItemSelectedListener to update newExtractionMethod text and handle visibility
+                        extractionMethodSpinner.onItemSelectedListener =
+                            object : AdapterView.OnItemSelectedListener {
+                                @SuppressLint("SetTextI18n")
+                                override fun onItemSelected(
+                                    parent: AdapterView<*>?,
+                                    view: View?,
+                                    position: Int,
+                                    id: Long
+                                ) {
+                                    if (position > 0) { // Check if a valid option (not "Choose an option") is selected
+                                        val selectedValue = values[position]
+                                        val selectedDescription = descriptions[selectedValue]
+                                        val selectedPage = pageNumbers[selectedValue]!!.toInt()
+                                        batchInformation.visibility = View.VISIBLE
+                                        extractionInformation.text = "Batch description: $selectedDescription, Project description: $selectedPage"
+                                        volumeInput.visibility = View.VISIBLE
+                                        volumeInput.hint = "Page number (max $selectedPage)"
+                                        maxPage = selectedPage
+                                    } else {
+                                        extractionInformation.visibility = View.INVISIBLE
+                                        volumeInput.visibility = View.INVISIBLE
+                                    }
+                                }
+
+                                override fun onNothingSelected(parent: AdapterView<*>?) {
+                                    //newExtractionMethod.text = "No suitable referenced method? add it by following this link and restart the application"
+                                    volumeInput.visibility = View.INVISIBLE
+                                }
+                            }
+                    }
+                } else {
+                    showToast("Error: $responseCode")
+                }
+
+            } catch (e: Exception) {
+                e.printStackTrace()
+                println(e)
+            }
+        }
+    }
+
+    private fun fetchValuesAndPopulateSpinner() {
+        val accessToken = intent.getStringExtra("ACCESS_TOKEN").toString()
+        val tableId = "mb5duvvrvthtzbq" // Replace with your table ID
+        val viewId = "vwaqhch1xclxi5ye" // Replace with your view ID
+        val apiUrl = "http://134.21.20.118:8080/api/v2/tables/$tableId/records?viewId=$viewId"
+        val url = URL(apiUrl)
+
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val urlConnection = withContext(Dispatchers.IO) {
+                    url.openConnection() as HttpURLConnection
+                }
+                urlConnection.requestMethod = "GET"
+                urlConnection.setRequestProperty("accept", "application/json")
+                urlConnection.setRequestProperty("xc-auth", accessToken)
+                urlConnection.setRequestProperty("xc-token", accessToken)
+
+                withContext(Dispatchers.IO) {
+                    urlConnection.connect()
+                }
+
+                val responseCode = urlConnection.responseCode
+
+                if (responseCode == HttpURLConnection.HTTP_OK) {
+                    val inputStream = urlConnection.inputStream
+                    val bufferedReader = BufferedReader(InputStreamReader(inputStream))
+                    val response = StringBuilder()
+                    println(response)
+                    var line: String?
+
+                    while (withContext(Dispatchers.IO) {
+                            bufferedReader.readLine()
+                        }.also { line = it } != null) {
+                        response.append(line)
+                    }
+
+                    withContext(Dispatchers.IO) {
+                        bufferedReader.close()
+                    }
+
+                    // Parse JSON response
+                    val jsonArray = JSONObject(response.toString()).getJSONArray("list")
+                    val values = ArrayList<String>()
+                    val descriptions = HashMap<String, String>()
+                    val pageNumbers = HashMap<String, String>()
+
+                    // Add "Choose an option" to the list of values
+                    values.add("Choose an option")
+
+                    for (i in 0 until jsonArray.length()) {
+                        val jsonObject = jsonArray.getJSONObject(i)
+                        val value = jsonObject.getString("zp labbook number")
+                        val description = jsonObject.getString("Labbook name")
+                        val pageNumber = jsonObject.getString("page_number")
+                        values.add(value)
+                        descriptions[value] = description
+                        pageNumbers[value] = pageNumber
+                    }
+
+                    runOnUiThread {
+                        // Populate spinner with values
+                        choices = values // Update choices list
+                        val adapter = ArrayAdapter(
+                            this@`5SampleActivity`,
+                            android.R.layout.simple_spinner_item,
+                            values
+                        )
+                        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+                        extractionMethodSpinner.adapter = adapter
+
+                        // Add an OnItemSelectedListener to update newExtractionMethod text and handle visibility
+                        extractionMethodSpinner.onItemSelectedListener =
+                            object : AdapterView.OnItemSelectedListener {
+                                @SuppressLint("SetTextI18n")
+                                override fun onItemSelected(
+                                    parent: AdapterView<*>?,
+                                    view: View?,
+                                    position: Int,
+                                    id: Long
+                                ) {
+                                    if (position > 0) { // Check if a valid option (not "Choose an option") is selected
+                                        val selectedValue = values[position]
+                                        val selectedDescription = descriptions[selectedValue]
+                                        val selectedPage = pageNumbers[selectedValue]!!.toInt()
+                                        extractionInformation.visibility = View.VISIBLE
+                                        extractionInformation.text = "Name: $selectedDescription, Pages: $selectedPage"
+                                        volumeInput.visibility = View.VISIBLE
+                                        volumeInput.hint = "Page number (max $selectedPage)"
+                                        maxPage = selectedPage
+                                    } else {
+                                        extractionInformation.visibility = View.INVISIBLE
+                                        volumeInput.visibility = View.INVISIBLE
+                                    }
+                                }
+
+                                override fun onNothingSelected(parent: AdapterView<*>?) {
+                                    //newExtractionMethod.text = "No suitable referenced method? add it by following this link and restart the application"
+                                    volumeInput.visibility = View.INVISIBLE
+                                }
+                            }
+                    }
+                } else {
+                    showToast("Error: $responseCode")
+                }
+
+            } catch (e: Exception) {
+                e.printStackTrace()
+                println(e)
             }
         }
     }
@@ -156,8 +395,8 @@ class `5SampleActivity` : AppCompatActivity() {
 
                 if (isObjectScanActive){
                     val sampleId = scanButtonSample.text.toString()
-                    val labBook = extractionMethodSpinner.selectedItem.toString()
-                    val pageNumber = volumeInput.text.toString()
+                    val labBook = labBookSpinner.selectedItem.toString()
+                    val pageNumber = pageNumber.text.toString()
                     showToast("page: $pageNumber")
                     CoroutineScope(Dispatchers.IO).launch {
                         sendDataToNocoDB(sampleId, labBook, pageNumber)
@@ -282,230 +521,6 @@ class `5SampleActivity` : AppCompatActivity() {
             }
         } finally {
             urlConnection.disconnect()
-        }
-    }
-
-    private fun fetchValuesAndPopulateSpinner() {
-        val accessToken = intent.getStringExtra("ACCESS_TOKEN").toString()
-        val tableId = "mb5duvvrvthtzbq" // Replace with your table ID
-        val viewId = "vwaqhch1xclxi5ye" // Replace with your view ID
-        val apiUrl = "http://134.21.20.118:8080/api/v2/tables/$tableId/records?viewId=$viewId"
-        val url = URL(apiUrl)
-
-        CoroutineScope(Dispatchers.IO).launch {
-            try {
-                val urlConnection = withContext(Dispatchers.IO) {
-                    url.openConnection() as HttpURLConnection
-                }
-                urlConnection.requestMethod = "GET"
-                urlConnection.setRequestProperty("accept", "application/json")
-                urlConnection.setRequestProperty("xc-auth", accessToken)
-                urlConnection.setRequestProperty("xc-token", accessToken)
-
-                withContext(Dispatchers.IO) {
-                    urlConnection.connect()
-                }
-
-                val responseCode = urlConnection.responseCode
-
-                if (responseCode == HttpURLConnection.HTTP_OK) {
-                    val inputStream = urlConnection.inputStream
-                    val bufferedReader = BufferedReader(InputStreamReader(inputStream))
-                    val response = StringBuilder()
-                    println(response)
-                    var line: String?
-
-                    while (withContext(Dispatchers.IO) {
-                            bufferedReader.readLine()
-                        }.also { line = it } != null) {
-                        response.append(line)
-                    }
-
-                    withContext(Dispatchers.IO) {
-                        bufferedReader.close()
-                    }
-
-                    // Parse JSON response
-                    val jsonArray = JSONObject(response.toString()).getJSONArray("list")
-                    val values = ArrayList<String>()
-                    val descriptions = HashMap<String, String>()
-                    val pageNumbers = HashMap<String, String>()
-
-                    // Add "Choose an option" to the list of values
-                    values.add("Choose an option")
-
-                    for (i in 0 until jsonArray.length()) {
-                        val jsonObject = jsonArray.getJSONObject(i)
-                        val value = jsonObject.getString("zp labbook number")
-                        val description = jsonObject.getString("Labbook name")
-                        val pageNumber = jsonObject.getString("page_number")
-                        values.add(value)
-                        descriptions[value] = description
-                        pageNumbers[value] = pageNumber
-                    }
-
-                    runOnUiThread {
-                        // Populate spinner with values
-                        choices = values // Update choices list
-                        val adapter = ArrayAdapter(
-                            this@`5SampleActivity`,
-                            android.R.layout.simple_spinner_item,
-                            values
-                        )
-                        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-                        extractionMethodSpinner.adapter = adapter
-
-                        // Add an OnItemSelectedListener to update newExtractionMethod text and handle visibility
-                        extractionMethodSpinner.onItemSelectedListener =
-                            object : AdapterView.OnItemSelectedListener {
-                                @SuppressLint("SetTextI18n")
-                                override fun onItemSelected(
-                                    parent: AdapterView<*>?,
-                                    view: View?,
-                                    position: Int,
-                                    id: Long
-                                ) {
-                                    if (position > 0) { // Check if a valid option (not "Choose an option") is selected
-                                        val selectedValue = values[position]
-                                        val selectedDescription = descriptions[selectedValue]
-                                        val selectedPage = pageNumbers[selectedValue]!!.toInt()
-                                        extractionInformation.visibility = View.VISIBLE
-                                        extractionInformation.text = "Name: $selectedDescription, Pages: $selectedPage"
-                                        volumeInput.visibility = View.VISIBLE
-                                        volumeInput.hint = "Page number (max $selectedPage)"
-                                        maxPage = selectedPage
-                                    } else {
-                                        extractionInformation.visibility = View.INVISIBLE
-                                        volumeInput.visibility = View.INVISIBLE
-                                    }
-                                }
-
-                                override fun onNothingSelected(parent: AdapterView<*>?) {
-                                    //newExtractionMethod.text = "No suitable referenced method? add it by following this link and restart the application"
-                                    volumeInput.visibility = View.INVISIBLE
-                                }
-                            }
-                    }
-                } else {
-                    showToast("Error: $responseCode")
-                }
-
-            } catch (e: Exception) {
-                e.printStackTrace()
-                println(e)
-            }
-        }
-    }
-
-    private fun fetchValuesAndPopulateSpinnerBatch() {
-        val accessToken = intent.getStringExtra("ACCESS_TOKEN").toString()
-        val tableId = "mt2q0qk45cqaqjo" // Replace with your table ID
-        val viewId = "vwekmipn51fus9j0" // Replace with your view ID
-        val apiUrl = "http://134.21.20.118:8080/api/v2/tables/$tableId/records?viewId=$viewId"
-        val url = URL(apiUrl)
-
-        CoroutineScope(Dispatchers.IO).launch {
-            try {
-                val urlConnection = withContext(Dispatchers.IO) {
-                    url.openConnection() as HttpURLConnection
-                }
-                urlConnection.requestMethod = "GET"
-                urlConnection.setRequestProperty("accept", "application/json")
-                urlConnection.setRequestProperty("xc-auth", accessToken)
-                urlConnection.setRequestProperty("xc-token", accessToken)
-
-                withContext(Dispatchers.IO) {
-                    urlConnection.connect()
-                }
-
-                val responseCode = urlConnection.responseCode
-
-                if (responseCode == HttpURLConnection.HTTP_OK) {
-                    val inputStream = urlConnection.inputStream
-                    val bufferedReader = BufferedReader(InputStreamReader(inputStream))
-                    val response = StringBuilder()
-                    println(response)
-                    var line: String?
-
-                    while (withContext(Dispatchers.IO) {
-                            bufferedReader.readLine()
-                        }.also { line = it } != null) {
-                        response.append(line)
-                    }
-
-                    withContext(Dispatchers.IO) {
-                        bufferedReader.close()
-                    }
-
-                    // Parse JSON response
-                    val jsonArray = JSONObject(response.toString()).getJSONArray("list")
-                    val values = ArrayList<String>()
-                    val descriptions = HashMap<String, String>()
-                    val pageNumbers = HashMap<String, String>()
-
-                    // Add "Choose an option" to the list of values
-                    values.add("Choose an option")
-
-                    for (i in 0 until jsonArray.length()) {
-                        val jsonObject = jsonArray.getJSONObject(i)
-                        val value = jsonObject.getString("Batches_ID")
-                        val description = jsonObject.getString("Batch Short Name")
-                        val pageNumber = jsonObject.getString("MAPP_Project Short description")
-                        values.add(value)
-                        descriptions[value] = description
-                        pageNumbers[value] = pageNumber
-                    }
-
-                    runOnUiThread {
-                        // Populate spinner with values
-                        choices = values // Update choices list
-                        val adapter = ArrayAdapter(
-                            this@`5SampleActivity`,
-                            android.R.layout.simple_spinner_item,
-                            values
-                        )
-                        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-                        extractionMethodSpinner.adapter = adapter
-
-                        // Add an OnItemSelectedListener to update newExtractionMethod text and handle visibility
-                        extractionMethodSpinner.onItemSelectedListener =
-                            object : AdapterView.OnItemSelectedListener {
-                                @SuppressLint("SetTextI18n")
-                                override fun onItemSelected(
-                                    parent: AdapterView<*>?,
-                                    view: View?,
-                                    position: Int,
-                                    id: Long
-                                ) {
-                                    if (position > 0) { // Check if a valid option (not "Choose an option") is selected
-                                        val selectedValue = values[position]
-                                        val selectedDescription = descriptions[selectedValue]
-                                        val selectedPage = pageNumbers[selectedValue]!!.toInt()
-                                        batchInformation.visibility = View.VISIBLE
-                                        extractionInformation.text = "Batch description: $selectedDescription, Project description: $selectedPage"
-                                        volumeInput.visibility = View.VISIBLE
-                                        volumeInput.hint = "Page number (max $selectedPage)"
-                                        maxPage = selectedPage
-                                    } else {
-                                        extractionInformation.visibility = View.INVISIBLE
-                                        volumeInput.visibility = View.INVISIBLE
-                                    }
-                                }
-
-                                override fun onNothingSelected(parent: AdapterView<*>?) {
-                                    //newExtractionMethod.text = "No suitable referenced method? add it by following this link and restart the application"
-                                    volumeInput.visibility = View.INVISIBLE
-                                }
-                            }
-                    }
-                } else {
-                    showToast("Error: $responseCode")
-                }
-
-            } catch (e: Exception) {
-                e.printStackTrace()
-                println(e)
-            }
         }
     }
 

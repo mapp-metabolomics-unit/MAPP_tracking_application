@@ -33,7 +33,7 @@ class `1ConnectionActivity` : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_connection)
 
         editTextUsername = findViewById(R.id.usernameEditText)
         editTextPassword = findViewById(R.id.passwordEditText)

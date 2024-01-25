@@ -44,7 +44,7 @@ class `6PrintActivity` : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_signaling_scan)
+        setContentView(R.layout.activity_print)
 
         // Add the back arrow to this screen
         supportActionBar?.setDisplayHomeAsUpEnabled(true)

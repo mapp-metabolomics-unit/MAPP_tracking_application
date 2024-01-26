@@ -36,63 +36,35 @@
         android:theme="@style/Theme.DBGITracking"
         tools:targetApi="31">
         <activity
-            android:name=".LocationActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MoveActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SignalingManActivity"
-            android:exported="false" />
-        <activity
-            android:name=".`6PrintActivity`"
-            android:exported="false" />
-        <activity
-            android:name=".`3_3WaitConnectionActivity`"
-            android:exported="false" />
-        <activity
-            android:name=".`2PermissionsActivity`"
-            android:exported="false" />
-        <activity
-            android:name=".`3_1ManagePrinterActivity`"
-            android:exported="false" />
-        <activity
-            android:name=".`3PrinterConnectActivity`"
-            android:exported="false" />
-        <activity
-            android:name=".AliquotsActivity"
+            android:name="org.example.mapptracking.PrintActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name=".SignalingActivity"
+            android:name="org.example.mapptracking.SampleActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name=".`5SampleActivity`"
+            android:name="org.example.mapptracking.HomePageActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name=".WeightingActivity"
+            android:name="org.example.mapptracking.WaitConnectionActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name=".FindActivity"
+            android:name="org.example.mapptracking.ManagePrinterActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name=".InjectionActivity"
+            android:name="org.example.mapptracking.PrinterConnectActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name=".`5SampleActivity`"
+            android:name="org.example.mapptracking.PermissionsActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name=".`4HomePageActivity`"
-            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-            android:exported="false" />
-        <activity
-            android:name=".`1ConnectionActivity`"
+            android:name="org.example.mapptracking.ConnectionActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="true">
             <intent-filter>
@@ -103,6 +75,5 @@
         </activity>
 
     </application>
-
 
 </manifest>

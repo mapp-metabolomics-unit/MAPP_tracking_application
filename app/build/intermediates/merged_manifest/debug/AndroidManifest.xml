@@ -76,35 +76,7 @@
         android:theme="@style/Theme.DBGITracking"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="org.example.mapptracking.LocationActivity"
-            android:exported="false" />
-        <activity
-            android:name="org.example.mapptracking.MoveActivity"
-            android:exported="false" />
-        <activity
-            android:name="org.example.mapptracking.SignalingManActivity"
-            android:exported="false" />
-        <activity
-            android:name="org.example.mapptracking.SignalingScanActivity"
-            android:exported="false" />
-        <activity
-            android:name="org.example.mapptracking.WaitConnectionActivity"
-            android:exported="false" />
-        <activity
-            android:name="org.example.mapptracking.PermissionsActivity"
-            android:exported="false" />
-        <activity
-            android:name="org.example.mapptracking.ManagePrinterActivity"
-            android:exported="false" />
-        <activity
-            android:name="org.example.mapptracking.PrinterConnectActivity"
-            android:exported="false" />
-        <activity
-            android:name="org.example.mapptracking.AliquotsActivity"
-            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-            android:exported="false" />
-        <activity
-            android:name="org.example.mapptracking.SignalingActivity"
+            android:name="org.example.mapptracking.PrintActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
@@ -112,27 +84,27 @@
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name="org.example.mapptracking.WeightingActivity"
-            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-            android:exported="false" />
-        <activity
-            android:name="org.example.mapptracking.FindActivity"
-            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-            android:exported="false" />
-        <activity
-            android:name="org.example.mapptracking.InjectionActivity"
-            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-            android:exported="false" />
-        <activity
-            android:name="org.example.mapptracking.ExtractionActivity"
-            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-            android:exported="false" />
-        <activity
             android:name="org.example.mapptracking.HomePageActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false" />
         <activity
-            android:name="org.example.mapptracking.MainActivity"
+            android:name="org.example.mapptracking.WaitConnectionActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:exported="false" />
+        <activity
+            android:name="org.example.mapptracking.ManagePrinterActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:exported="false" />
+        <activity
+            android:name="org.example.mapptracking.PrinterConnectActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:exported="false" />
+        <activity
+            android:name="org.example.mapptracking.PermissionsActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:exported="false" />
+        <activity
+            android:name="org.example.mapptracking.ConnectionActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="true" >
             <intent-filter>

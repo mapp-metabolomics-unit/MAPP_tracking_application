@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-108:12
-INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-108:12
-INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-108:12
-INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-108:12
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-79:12
 MERGED from [androidx.fragment:fragment-ktx:1.5.5] C:\Users\edoua\.gradle\caches\transforms-3\3e4b8bd95b23f1a39221f8e5c8ad39b3\transformed\jetified-fragment-ktx-1.5.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:2:1-28:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\bec12648b5c289b68eed868060cdba26\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
@@ -172,8 +172,8 @@ ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\ap
 	android:name
 		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:22:9-47
 application
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:25:5-105:19
-INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:25:5-105:19
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:25:5-77:19
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:25:5-77:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\bec12648b5c289b68eed868060cdba26\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\bec12648b5c289b68eed868060cdba26\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\edoua\.gradle\caches\transforms-3\8e9c18a67f8d8f077699c83f6d571299\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -248,136 +248,80 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\edoua\.gradle\c
 		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:29:9-65
 	android:usesCleartextTraffic
 		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:26:9-44
-activity#org.example.mapptracking.LocationActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:38:9-40:40
+activity#org.example.mapptracking.PrintActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:38:9-41:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:40:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:41:13-37
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:40:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:39:13-45
-activity#org.example.mapptracking.MoveActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:41:9-43:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:39:13-66
+activity#org.example.mapptracking.SampleActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:42:9-45:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:43:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:45:13-37
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:44:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:42:13-41
-activity#org.example.mapptracking.SignalingManActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:44:9-46:40
-	android:exported
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:46:13-37
-	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:45:13-49
-activity#org.example.mapptracking.SignalingScanActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:47:9-49:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:43:13-67
+activity#org.example.mapptracking.HomePageActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:46:9-49:40
 	android:exported
 		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:49:13-37
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:48:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:48:13-50
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:47:13-69
 activity#org.example.mapptracking.WaitConnectionActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:50:9-52:40
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:50:9-53:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:52:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:53:13-37
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:52:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:51:13-51
-activity#org.example.mapptracking.PermissionsActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:53:9-55:40
-	android:exported
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:55:13-37
-	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:54:13-48
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:51:13-75
 activity#org.example.mapptracking.ManagePrinterActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:56:9-58:40
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:54:9-57:40
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:58:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:57:13-37
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:56:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:57:13-50
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:55:13-74
 activity#org.example.mapptracking.PrinterConnectActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:59:9-61:40
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:58:9-61:40
 	android:exported
 		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:61:13-37
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:60:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:60:13-51
-activity#org.example.mapptracking.AliquotsActivity
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:59:13-75
+activity#org.example.mapptracking.PermissionsActivity
 ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:62:9-65:40
 	android:exported
 		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:65:13-37
 	android:configChanges
 		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:64:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:63:13-45
-activity#org.example.mapptracking.SignalingActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:66:9-69:40
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:63:13-72
+activity#org.example.mapptracking.ConnectionActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:66:9-75:20
 	android:exported
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:69:13-37
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:69:13-36
 	android:configChanges
 		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:68:13-87
 	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:67:13-46
-activity#org.example.mapptracking.SampleActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:70:9-73:40
-	android:exported
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:73:13-37
-	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:72:13-87
-	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:71:13-43
-activity#org.example.mapptracking.WeightingActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:74:9-77:40
-	android:exported
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:77:13-37
-	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:76:13-87
-	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:75:13-46
-activity#org.example.mapptracking.FindActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:78:9-81:40
-	android:exported
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:81:13-37
-	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:80:13-87
-	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:79:13-41
-activity#org.example.mapptracking.InjectionActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:82:9-85:40
-	android:exported
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:85:13-37
-	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:84:13-87
-	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:83:13-46
-activity#org.example.mapptracking.ExtractionActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:86:9-89:40
-	android:exported
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:89:13-37
-	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:88:13-87
-	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:87:13-47
-activity#org.example.mapptracking.HomePageActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:90:9-93:40
-	android:exported
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:93:13-37
-	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:92:13-87
-	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:91:13-45
-activity#org.example.mapptracking.MainActivity
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:94:9-103:20
-	android:exported
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:97:13-36
-	android:configChanges
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:96:13-87
-	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:95:13-41
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:67:13-71
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:98:13-102:29
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:70:13-74:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:99:17-69
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:71:17-69
 	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:99:25-66
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:71:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:101:17-77
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:73:17-77
 	android:name
-		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:101:27-74
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:73:27-74
 uses-sdk
 INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml

@@ -10,7 +10,7 @@
         android:id="@+id/batchSpinnerLabel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textSize="12sp"
+        android:textSize="20sp"
         android:text="Select a batch:"
         android:textStyle="bold"
         android:gravity="center"
@@ -34,7 +34,7 @@
 
     <TextView
         android:id="@+id/batchSpinnerInformation"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
         android:textSize="12sp"
@@ -56,9 +56,9 @@
         android:text="Lab book number:"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
         app:layout_constraintTop_toBottomOf="@id/batchSpinnerInformation"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"
         tools:ignore="HardcodedText" />
@@ -69,14 +69,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:minHeight="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
         app:layout_constraintTop_toBottomOf="@id/labBookSpinnerLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck,DuplicateClickableBoundsCheck" />
 
     <TextView
         android:id="@+id/labBookSpinnerInformation"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
         android:textSize="12sp"

@@ -27,6 +27,7 @@ import com.bradysdk.printengine.templateinterface.TemplateFactory
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.json.JSONArray
@@ -586,7 +587,7 @@ class SampleActivity : AppCompatActivity() {
 
                 val mappId = getMappId(ncRecordId)
 
-                showToast(mappId)
+                showToast("mapp code: $mappId")
 
                 // print label here
                 val isPrinterConnected = intent.getStringExtra("IS_PRINTER_CONNECTED")
@@ -603,14 +604,28 @@ class SampleActivity : AppCompatActivity() {
                         )
                     )
 
+                    val parts = mappId.toString().split("_")
+                    val labBook = "_" + parts[1]
+                    val page = "_" + parts[2]
+                    val variant = "_" + parts[3]
+
                     // Call the SDK method ".getTemplate()" to retrieve its Template Object
                     val template =
                         TemplateFactory.getTemplate(iStream, this@SampleActivity)
                     // Simple way to iterate through any placeholders to set desired values.
                     for (placeholder in template.templateData) {
                         when (placeholder.name) {
-                            "code" -> {
+                            "QR" -> {
                                 placeholder.value = mappId
+                            }
+                            "labBook" -> {
+                                placeholder.value = labBook
+                            }
+                            "page" -> {
+                                placeholder.value = page
+                            }
+                            "variant" -> {
+                                placeholder.value = variant
                             }
                         }
                     }
@@ -630,6 +645,11 @@ class SampleActivity : AppCompatActivity() {
                     }
                     val printThread = Thread(r)
                     printThread.start()
+                }
+
+                withContext(Dispatchers.Main) {
+                    delay(1500)
+                    scanButtonSample.performClick()
                 }
 
             } else {
@@ -738,7 +758,6 @@ class SampleActivity : AppCompatActivity() {
                 }
 
                 val responseCode = urlConnection.responseCode
-                println(responseCode)
                 if (responseCode == HttpURLConnection.HTTP_OK) {
                     val inputStream = urlConnection.inputStream
                     val bufferedReader = BufferedReader(InputStreamReader(inputStream))
@@ -754,17 +773,12 @@ class SampleActivity : AppCompatActivity() {
                     withContext(Dispatchers.IO) {
                         bufferedReader.close()
                     }
-
                     // Parse JSON response
-                    val jsonArray = JSONObject(response.toString()).getJSONArray("list")
-                    showToast("jsonArray: $jsonArray")
-
-                    val jsonObject = jsonArray.getJSONObject(0)
-                    val value = jsonObject.getString("Final")
-                    showToast("Value")
+                    val jsonObject = JSONObject(response.toString())
+                    val stringValue = jsonObject.getString("Final")
 
                     // Set the result to the deferred
-                    resultDeferred.complete(value)
+                    resultDeferred.complete(stringValue)
                 }
 
             } catch (e: Exception) {

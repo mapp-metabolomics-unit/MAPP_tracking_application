@@ -4,20 +4,8 @@
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\xml_network_security_config.xml.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\xml\\network_security_config.xml"
-    },
-    {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_aliquots.xml.flat",
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_aliquots.xml"
-    },
-    {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\drawable_ic_launcher_background.xml.flat",
@@ -28,20 +16,92 @@
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_print.xml.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_print.xml"
-    },
-    {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_location.xml.flat",
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_location.xml"
+    },
+    {
+        "merged": "org.example.mapptracking.app-merged_res-43:/layout_activity_print.xml.flat",
+        "source": "org.example.mapptracking.app-main-45:/layout/activity_print.xml"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\drawable_ic_back_arrow.xml.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\drawable\\ic_back_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_signaling.xml.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_signaling.xml"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_connection.xml.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_connection.xml"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_injection.xml.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_injection.xml"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_manage_printer.xml.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_manage_printer.xml"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_signaling_scan.xml.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_signaling_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\raw_template_dbgi_batch.BWT.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\raw\\template_dbgi_batch.BWT"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_permissions.xml.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_permissions.xml"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_wait_connection.xml.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_wait_connection.xml"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_print.xml.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_print.xml"
     },
     {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_move.xml.flat",
@@ -64,28 +124,16 @@
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_signaling_man.xml"
     },
     {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\drawable_ic_back_arrow.xml.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\drawable\\ic_back_arrow.xml"
-    },
-    {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_printer_connect.xml.flat",
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_printer_connect.xml"
-    },
-    {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_find.xml.flat",
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_find.xml"
     },
     {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_signaling.xml.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_signaling.xml"
+        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\raw_template_mapp.BWT.flat",
+        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\raw\\template_mapp.BWT"
     },
     {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_home_page.xml.flat",
@@ -100,40 +148,16 @@
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_connection.xml.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_connection.xml"
-    },
-    {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_injection.xml.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_injection.xml"
     },
     {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_manage_printer.xml.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_manage_printer.xml"
-    },
-    {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_signaling_scan.xml.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_signaling_scan.xml"
-    },
-    {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\xml\\backup_rules.xml"
     },
     {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -148,10 +172,6 @@
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\raw_template_dbgi_batch.BWT.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\raw\\template_dbgi_batch.BWT"
-    },
-    {
         "merged": "org.example.mapptracking.app-merged_res-43:/raw_template_mapp.BWT.flat",
         "source": "org.example.mapptracking.app-main-45:/raw/template_mapp.BWT"
     },
@@ -164,14 +184,6 @@
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_permissions.xml.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_permissions.xml"
-    },
-    {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -182,9 +194,5 @@
     {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\drawable_minilogo_mapp.png.flat",
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\drawable\\minilogo_mapp.png"
-    },
-    {
-        "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_wait_connection.xml.flat",
-        "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_wait_connection.xml"
     }
 ]

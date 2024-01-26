@@ -3415,6 +3415,7 @@ id position
 id postLayout
 id pressed
 id previewView
+id printLabel
 id printerListView
 id printerNameTextView
 id progress_circular
@@ -3433,9 +3434,8 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id scanButtonPrinting
 id scanButtonSample
-id scanButtonSignaling
-id scanSignalingLabel
 id scanStatus
 id screen
 id scroll

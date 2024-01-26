@@ -17,28 +17,21 @@ import androidx.camera.view.PreviewView
 import com.bradysdk.api.printerconnection.CutOption
 import com.bradysdk.api.printerconnection.PrintingOptions
 import com.bradysdk.printengine.templateinterface.TemplateFactory
-import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.json.JSONObject
-import java.io.BufferedReader
-import java.io.InputStreamReader
-import java.io.OutputStream
-import java.net.HttpURLConnection
-import java.net.URL
 
 class PrintActivity : AppCompatActivity() {
 
-    private lateinit var scanSignalingLabel: TextView
-    private lateinit var scanButtonSignaling: Button
-    private var isObjectScanActive = false
-    private var hasTriedAgain = false
-    private var lastAccessToken: String? = null
+    private lateinit var printLabel: TextView
+    private lateinit var scanButtonPrinting: Button
     private lateinit var previewView: PreviewView
     private lateinit var flashlightButton: Button
     private lateinit var scanStatus: TextView
+
+    private var isObjectScanActive = false
     private var isQrScannerActive = false
 
     @SuppressLint("SetTextI18n")
@@ -50,20 +43,20 @@ class PrintActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_back_arrow)
 
-        scanSignalingLabel = findViewById(R.id.scanSignalingLabel)
-        scanButtonSignaling = findViewById(R.id.scanButtonSignaling)
+        printLabel = findViewById(R.id.printLabel)
+        scanButtonPrinting = findViewById(R.id.scanButtonPrinting)
         previewView = findViewById(R.id.previewView)
         flashlightButton = findViewById(R.id.flashlightButton)
         scanStatus = findViewById(R.id.scanStatus)
 
         // Set up button click listener for Object QR Scanner
-        scanButtonSignaling.setOnClickListener {
+        scanButtonPrinting.setOnClickListener {
             isObjectScanActive = false
             isQrScannerActive = true
             previewView.visibility = View.VISIBLE
             scanStatus.text = "Scan the sample"
             flashlightButton.visibility = View.VISIBLE
-            scanButtonSignaling.visibility = View.INVISIBLE
+            scanButtonPrinting.visibility = View.INVISIBLE
             QRCodeScannerUtility.initialize(this, previewView, flashlightButton) { scannedSample ->
 
                 // Stop the scanning process after receiving the result
@@ -71,9 +64,9 @@ class PrintActivity : AppCompatActivity() {
                 isQrScannerActive = false
                 previewView.visibility = View.INVISIBLE
                 flashlightButton.visibility = View.INVISIBLE
-                scanButtonSignaling.visibility = View.VISIBLE
+                scanButtonPrinting.visibility = View.VISIBLE
                 scanStatus.text = ""
-                scanButtonSignaling.text = scannedSample
+                scanButtonPrinting.text = scannedSample
                 manageScan()
             }
         }
@@ -90,10 +83,12 @@ class PrintActivity : AppCompatActivity() {
 
                         if (isObjectScanActive) {
 
-                            val sampleId = scanButtonSignaling.text.toString()
+                            val sampleId = scanButtonPrinting.text.toString()
                             showToast("sample id: $sampleId")
-                            printLabel(
-                                sampleId)
+                            CoroutineScope(Dispatchers.IO).launch {
+                                printLabel(
+                                    sampleId)
+                            }
                         }
                     }
                 }
@@ -101,7 +96,7 @@ class PrintActivity : AppCompatActivity() {
 
     // Function to send data to Directus
     @SuppressLint("SetTextI18n", "DiscouragedApi")
-    private fun printLabel (sampleId: String) {
+    private suspend fun printLabel (sampleId: String) {
         // print label here
         val isPrinterConnected = intent.getStringExtra("IS_PRINTER_CONNECTED")
         if (isPrinterConnected == "yes") {
@@ -117,14 +112,28 @@ class PrintActivity : AppCompatActivity() {
                 )
             )
 
+            val parts = sampleId.split("_")
+            val labBook = "_" + parts[1]
+            val page = "_" + parts[2]
+            val variant = "_" + parts[3]
+
             // Call the SDK method ".getTemplate()" to retrieve its Template Object
             val template =
                 TemplateFactory.getTemplate(iStream, this@PrintActivity)
             // Simple way to iterate through any placeholders to set desired values.
             for (placeholder in template.templateData) {
                 when (placeholder.name) {
-                    "code" -> {
+                    "QR" -> {
                         placeholder.value = sampleId
+                    }
+                    "labBook" -> {
+                        placeholder.value = labBook
+                    }
+                    "page" -> {
+                        placeholder.value = page
+                    }
+                    "variant" -> {
+                        placeholder.value = variant
                     }
                 }
             }
@@ -144,6 +153,12 @@ class PrintActivity : AppCompatActivity() {
             }
             val printThread = Thread(r)
             printThread.start()
+
+            delay(1500)
+            scanButtonPrinting.performClick()
+
+        } else{
+            showToast("Please connect a printer to perform this task")
         }
     }
 
@@ -159,74 +174,5 @@ class PrintActivity : AppCompatActivity() {
 
     private fun showToast(toast: String?) {
         runOnUiThread { Toast.makeText(this, toast, Toast.LENGTH_LONG).show() }
-    }
-
-    @SuppressLint("SetTextI18n")
-    private suspend fun getNewAccessToken(): String? {
-        // Start a coroutine to perform the network operation
-        val deferred = CompletableDeferred<String?>()
-        CoroutineScope(Dispatchers.IO).launch {
-            try {
-                val username = intent.getStringExtra("USERNAME")
-                val password = intent.getStringExtra("PASSWORD")
-                val baseUrl = "http://directus.dbgi.org"
-                val loginUrl = "$baseUrl/auth/login"
-                val url = URL(loginUrl)
-                val connection =
-                    withContext(Dispatchers.IO) {
-                        url.openConnection()
-                    } as HttpURLConnection
-                connection.requestMethod = "POST"
-                connection.setRequestProperty("Content-Type", "application/json")
-                connection.doOutput = true
-
-                val requestBody = "{\"email\":\"$username\",\"password\":\"$password\"}"
-
-                val outputStream: OutputStream = connection.outputStream
-                withContext(Dispatchers.IO) {
-                    outputStream.write(requestBody.toByteArray())
-                }
-                withContext(Dispatchers.IO) {
-                    outputStream.close()
-                }
-
-                val responseCode = connection.responseCode
-                if (responseCode == HttpURLConnection.HTTP_OK) {
-                    val `in` = BufferedReader(InputStreamReader(connection.inputStream))
-                    val content = StringBuilder()
-                    var inputLine: String?
-                    while (withContext(Dispatchers.IO) {
-                            `in`.readLine()
-                        }.also { inputLine = it } != null) {
-                        content.append(inputLine)
-                    }
-                    withContext(Dispatchers.IO) {
-                        `in`.close()
-                    }
-
-                    val jsonData = content.toString()
-                    val jsonResponse = JSONObject(jsonData)
-                    val data = jsonResponse.getJSONObject("data")
-                    val accessToken = data.getString("access_token")
-                    deferred.complete(accessToken)
-                } else {
-                    showToast("Database error, please check your connection.")
-                    deferred.complete(null)
-                }
-            }catch (e: Exception) {
-                e.printStackTrace()
-                withContext(Dispatchers.Main) {
-                    showToast("Database error, please check your connection.")
-                    deferred.complete(null)
-                }
-            }
-        }
-        return deferred.await()
-    }
-    private fun retrieveToken(token: String? = null): String {
-        if (token != null) {
-            lastAccessToken = token
-        }
-        return lastAccessToken ?: "null"
     }
 }

@@ -30,11 +30,11 @@ id loginButton
 id pageNumber
 id passwordEditText
 id previewView
+id printLabel
 id printerListView
 id printerNameTextView
+id scanButtonPrinting
 id scanButtonSample
-id scanButtonSignaling
-id scanSignalingLabel
 id scanStatus
 id usernameEditText
 layout activity_connection

@@ -3414,6 +3414,7 @@ int id position 0x7f08016b
 int id postLayout 0x7f08016c
 int id pressed 0x7f08016d
 int id previewView 0x7f08016e
+int id printLabel 0x7f080213
 int id printerListView 0x7f08016f
 int id printerNameTextView 0x7f080170
 int id progress_circular 0x7f080171
@@ -3432,9 +3433,8 @@ int id save_non_transition_alpha 0x7f08017d
 int id save_overlay_view 0x7f08017e
 int id sawtooth 0x7f08017f
 int id scale 0x7f080180
+int id scanButtonPrinting 0x7f080214
 int id scanButtonSample 0x7f080181
-int id scanButtonSignaling 0x7f080182
-int id scanSignalingLabel 0x7f080183
 int id scanStatus 0x7f080184
 int id screen 0x7f080185
 int id scroll 0x7f080186

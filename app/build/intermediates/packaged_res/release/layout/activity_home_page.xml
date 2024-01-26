@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".`4HomePageActivity`">
+
+    <Button
+        android:id="@+id/SampleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sample mode"
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/PrintButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="print mode"
+        app:layout_constraintTop_toBottomOf="@id/SampleButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

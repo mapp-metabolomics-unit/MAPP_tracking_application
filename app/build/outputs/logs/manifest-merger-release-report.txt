@@ -1,0 +1,736 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:1-79:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.5] C:\Users\edoua\.gradle\caches\transforms-3\3e4b8bd95b23f1a39221f8e5c8ad39b3\transformed\jetified-fragment-ktx-1.5.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:2:1-28:12
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\bec12648b5c289b68eed868060cdba26\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\edoua\.gradle\caches\transforms-3\8e9c18a67f8d8f077699c83f6d571299\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.camera:camera-video:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\17c414e90fbb358932e8755a31323265\transformed\jetified-camera-video-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\77718fee2c4c299d1b09ce1f1703b7ff\transformed\jetified-camera-camera2-1.3.0\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\bc7fde59d3c2c02b3a6afc081979cd43\transformed\jetified-camera-core-1.3.0\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\f3427d9625dc1198ed34d21ffd283f89\transformed\jetified-camera-lifecycle-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-view:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\33374996bb0a1daab5a335f47bff2d33\transformed\jetified-camera-view-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\298aca1ef63857b694b6ca444082a205\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\d7df77ebda5981800df5740c98f42e89\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\214c2d68f797fe491bb3960c12197ce7\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] C:\Users\edoua\.gradle\caches\transforms-3\7a3b8e241d285a8423ebb76ff9f7b879\transformed\jetified-barcode-scanning-17.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\edoua\.gradle\caches\transforms-3\c4c617c7f831f7f5d49f436ae622f2a9\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\9357b50e557d778ec8f7da5078765380\transformed\jetified-barcode-scanning-common-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\edoua\.gradle\caches\transforms-3\597bc2f315907095cedb11c128b66c89\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\eeabb11cfa0d4418bb33f43f7d28e2cf\transformed\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4d9270058ffebccbff858a2e7f2e6b64\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\e6050a17507ee1b1712dc20c5dee08f9\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\edoua\.gradle\caches\transforms-3\ae97b883e973283307ca70b833abba38\transformed\jetified-vision-interfaces-16.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\edoua\.gradle\caches\transforms-3\5e1537ca53ae423c39b21f9b9be21a6c\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\85be5ad3a7e61f9795749cd7779b2293\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\4b086ec179f4dea705fa003150dd2850\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.5] C:\Users\edoua\.gradle\caches\transforms-3\afe3f83827547fee056f038e5508eed6\transformed\fragment-1.5.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\73bf9dc97615714cf23204b1a7d42ad2\transformed\jetified-activity-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\e16be356685ff7aa417015c24631acb8\transformed\jetified-activity-ktx-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\b26ca8fb46992a0e05f9a42ae7a4b1d5\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\31540f4b387a452ea287c293f535b716\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\a714ca0a446dccfe47ed2a398481e3f7\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\53cae047f57dbf011dafe324e5a9fa78\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\9e8be09d0a3b9c9629e229d5d6f292f4\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\5dcd0afc97b069d9315747100a3c4993\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\308a44ca8f2208495ac9cc607269f0b0\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\b322bf7932042435c728b83a919ef40e\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\c09cadfa6f3af7b392a25609b42421f1\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\45a8bc146f2c3cd72ce4d3997227a069\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\e3fd4e23262dfa44cb725a7536c95604\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\e7b7398ffa5c0f1b8be4693d61a67331\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\bb8f2957f2bee75f8a8e4f7fc6f9389f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\9935c3357744ddcf9579311f96f30836\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4469af39f7086375dbd04b2f78af79c6\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\582b49010fa79cd407b14d8b65f47b2f\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\d8ccdf087bcf9caba4b2a0acc3be4389\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4ddcb99b11a2105103c6ecb5c6c46d2a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\edoua\.gradle\caches\transforms-3\4c04aea934a789e346649fb84802fded\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\520b15beea1129ab26ae7765b7b2dc52\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\61b18448b3edb4c3754a316b062dfe3f\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\b73ca0768c0ff0dd1f64f2adc61aacc7\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\2c0798baff9e69d65f65f7204f6726a7\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:17:1-53:12
+MERGED from [androidx.test:rules:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\2504b6f4e5d11b4c08b732ac409a88d0\transformed\rules-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:runner:1.5.2] C:\Users\edoua\.gradle\caches\transforms-3\b8c7aac791727de3a7bb1675e669a334\transformed\runner-1.5.2\AndroidManifest.xml:17:1-32:12
+MERGED from [com.polidea.rxandroidble2:mockclient:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\52a711508d86f71c530111f37a0f0abe\transformed\jetified-mockclient-1.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\7be65115ec5498de865921cf796273c9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\9e49982c9fb8096151d38c2dff56c4cd\transformed\jetified-lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\edoua\.gradle\caches\transforms-3\9963054e1a175b13d9bf17917295dc1c\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\023c5bc4d8443b92b48cccb2c4f85781\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\edoua\.gradle\caches\transforms-3\d7c458f3ccf329eb90273fc1b52938d5\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\edoua\.gradle\caches\transforms-3\1823118a89b8c2bcab35823845e8b3bb\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\edoua\.gradle\caches\transforms-3\367e9c6be8052a06b78eee2b5f115002\transformed\jetified-firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\edoua\.gradle\caches\transforms-3\4f7c78b3dda284810dd47d314f66bc32\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.test.services:storage:1.4.2] C:\Users\edoua\.gradle\caches\transforms-3\6364b0c3ef3061f18d2bc054389ea9e3\transformed\jetified-storage-1.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:monitor:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\e6b30f6b63e66626d6619f4eab4a2a99\transformed\monitor-1.6.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\ccaee994b2f5025f10c51a456aa85e50\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\b35c197adf093484085557832cb49643\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:annotation:1.0.1] C:\Users\edoua\.gradle\caches\transforms-3\425d4b7af8d6541a4ab5c7213a844bd7\transformed\jetified-annotation-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\edoua\.gradle\caches\transforms-3\544d22e3a61ecb7a05a1a60866a4a2c8\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\45653d793322ab70b4d5516d2bd1c7da\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\904a202759ad7e25828d41eecb470f8f\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\ff85a96e9e0e7a8763ec5b3d0eb42d49\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\9ec0746b947eb7a0de2e9f0a05b9d50e\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\edoua\.gradle\caches\transforms-3\2760ec29a54a83276b17a2387b4748be\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\edoua\.gradle\caches\transforms-3\012e6fcf9ce42d08a73395139db6b9e1\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\edoua\.gradle\caches\transforms-3\c70e877c022ec7d73b87e648760bbc49\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:2:11-69
+	tools:ignore
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:5:5-29
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:26:5-67
+MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\eeabb11cfa0d4418bb33f43f7d28e2cf\transformed\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\eeabb11cfa0d4418bb33f43f7d28e2cf\transformed\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4d9270058ffebccbff858a2e7f2e6b64\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4d9270058ffebccbff858a2e7f2e6b64\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:8:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:9:5-69
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:9:22-66
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:10:5-76
+MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:19:5-76
+MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:19:5-76
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:21:5-76
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:11:5-73
+MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:20:5-23:31
+MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:20:5-23:31
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:22:5-25:31
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:22:5-25:31
+	android:usesPermissionFlags
+		ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:22:9-55
+	tools:targetApi
+		ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:23:9-28
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:11:22-70
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:24:5-79
+MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:13:5-68
+MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:17:5-68
+MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:17:5-68
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:10:5-12:38
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:10:5-12:38
+	android:maxSdkVersion
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:12:9-35
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:13:22-65
+uses-feature#android.hardware.bluetooth
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:16:9-50
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:18:5-20:36
+	android:required
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:19:9-53
+uses-feature#android.hardware.camera
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:21:5-23:36
+	android:required
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:23:9-33
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:22:9-47
+application
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:25:5-77:19
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:25:5-77:19
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\bec12648b5c289b68eed868060cdba26\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\bec12648b5c289b68eed868060cdba26\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\edoua\.gradle\caches\transforms-3\8e9c18a67f8d8f077699c83f6d571299\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\edoua\.gradle\caches\transforms-3\8e9c18a67f8d8f077699c83f6d571299\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\77718fee2c4c299d1b09ce1f1703b7ff\transformed\jetified-camera-camera2-1.3.0\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\77718fee2c4c299d1b09ce1f1703b7ff\transformed\jetified-camera-camera2-1.3.0\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\bc7fde59d3c2c02b3a6afc081979cd43\transformed\jetified-camera-core-1.3.0\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\bc7fde59d3c2c02b3a6afc081979cd43\transformed\jetified-camera-core-1.3.0\AndroidManifest.xml:23:5-34:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\edoua\.gradle\caches\transforms-3\c4c617c7f831f7f5d49f436ae622f2a9\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\edoua\.gradle\caches\transforms-3\c4c617c7f831f7f5d49f436ae622f2a9\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\edoua\.gradle\caches\transforms-3\597bc2f315907095cedb11c128b66c89\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\edoua\.gradle\caches\transforms-3\597bc2f315907095cedb11c128b66c89\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\eeabb11cfa0d4418bb33f43f7d28e2cf\transformed\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\eeabb11cfa0d4418bb33f43f7d28e2cf\transformed\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4d9270058ffebccbff858a2e7f2e6b64\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4d9270058ffebccbff858a2e7f2e6b64\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\e6050a17507ee1b1712dc20c5dee08f9\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\e6050a17507ee1b1712dc20c5dee08f9\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\edoua\.gradle\caches\transforms-3\5e1537ca53ae423c39b21f9b9be21a6c\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\edoua\.gradle\caches\transforms-3\5e1537ca53ae423c39b21f9b9be21a6c\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\85be5ad3a7e61f9795749cd7779b2293\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\85be5ad3a7e61f9795749cd7779b2293\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\4b086ec179f4dea705fa003150dd2850\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\4b086ec179f4dea705fa003150dd2850\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\edoua\.gradle\caches\transforms-3\4c04aea934a789e346649fb84802fded\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\edoua\.gradle\caches\transforms-3\4c04aea934a789e346649fb84802fded\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.test:runner:1.5.2] C:\Users\edoua\.gradle\caches\transforms-3\b8c7aac791727de3a7bb1675e669a334\transformed\runner-1.5.2\AndroidManifest.xml:30:5-20
+MERGED from [androidx.test:runner:1.5.2] C:\Users\edoua\.gradle\caches\transforms-3\b8c7aac791727de3a7bb1675e669a334\transformed\runner-1.5.2\AndroidManifest.xml:30:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\7be65115ec5498de865921cf796273c9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\7be65115ec5498de865921cf796273c9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\ccaee994b2f5025f10c51a456aa85e50\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\ccaee994b2f5025f10c51a456aa85e50\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\edoua\.gradle\caches\transforms-3\c70e877c022ec7d73b87e648760bbc49\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\edoua\.gradle\caches\transforms-3\c70e877c022ec7d73b87e648760bbc49\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
+	android:roundIcon
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:34:9-54
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:28:9-83
+	android:icon
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:31:9-43
+	android:networkSecurityConfig
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:33:9-69
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:35:9-35
+	android:label
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:32:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:30:9-54
+	tools:targetApi
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:37:9-29
+	android:allowBackup
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:27:9-35
+	android:theme
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:36:9-50
+	android:dataExtractionRules
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:29:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:26:9-44
+activity#org.example.mapptracking.PrintActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:38:9-41:40
+	android:exported
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:41:13-37
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:40:13-87
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:39:13-66
+activity#org.example.mapptracking.SampleActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:42:9-45:40
+	android:exported
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:45:13-37
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:44:13-87
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:43:13-67
+activity#org.example.mapptracking.HomePageActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:46:9-49:40
+	android:exported
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:49:13-37
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:48:13-87
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:47:13-69
+activity#org.example.mapptracking.WaitConnectionActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:50:9-53:40
+	android:exported
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:53:13-37
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:52:13-87
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:51:13-75
+activity#org.example.mapptracking.ManagePrinterActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:54:9-57:40
+	android:exported
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:57:13-37
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:56:13-87
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:55:13-74
+activity#org.example.mapptracking.PrinterConnectActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:58:9-61:40
+	android:exported
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:61:13-37
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:60:13-87
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:59:13-75
+activity#org.example.mapptracking.PermissionsActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:62:9-65:40
+	android:exported
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:65:13-37
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:64:13-87
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:63:13-72
+activity#org.example.mapptracking.ConnectionActivity
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:66:9-75:20
+	android:exported
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:69:13-36
+	android:configChanges
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:68:13-87
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:67:13-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:70:13-74:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:71:17-69
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:71:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:73:17-77
+	android:name
+		ADDED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml:73:27-74
+uses-sdk
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
+MERGED from [androidx.fragment:fragment-ktx:1.5.5] C:\Users\edoua\.gradle\caches\transforms-3\3e4b8bd95b23f1a39221f8e5c8ad39b3\transformed\jetified-fragment-ktx-1.5.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.5] C:\Users\edoua\.gradle\caches\transforms-3\3e4b8bd95b23f1a39221f8e5c8ad39b3\transformed\jetified-fragment-ktx-1.5.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\bec12648b5c289b68eed868060cdba26\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\bec12648b5c289b68eed868060cdba26\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\edoua\.gradle\caches\transforms-3\8e9c18a67f8d8f077699c83f6d571299\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\edoua\.gradle\caches\transforms-3\8e9c18a67f8d8f077699c83f6d571299\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.camera:camera-video:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\17c414e90fbb358932e8755a31323265\transformed\jetified-camera-video-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\17c414e90fbb358932e8755a31323265\transformed\jetified-camera-video-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\77718fee2c4c299d1b09ce1f1703b7ff\transformed\jetified-camera-camera2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\77718fee2c4c299d1b09ce1f1703b7ff\transformed\jetified-camera-camera2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\bc7fde59d3c2c02b3a6afc081979cd43\transformed\jetified-camera-core-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\bc7fde59d3c2c02b3a6afc081979cd43\transformed\jetified-camera-core-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\f3427d9625dc1198ed34d21ffd283f89\transformed\jetified-camera-lifecycle-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\f3427d9625dc1198ed34d21ffd283f89\transformed\jetified-camera-lifecycle-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\33374996bb0a1daab5a335f47bff2d33\transformed\jetified-camera-view-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\33374996bb0a1daab5a335f47bff2d33\transformed\jetified-camera-view-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\298aca1ef63857b694b6ca444082a205\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\298aca1ef63857b694b6ca444082a205\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\d7df77ebda5981800df5740c98f42e89\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\d7df77ebda5981800df5740c98f42e89\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\214c2d68f797fe491bb3960c12197ce7\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\214c2d68f797fe491bb3960c12197ce7\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] C:\Users\edoua\.gradle\caches\transforms-3\7a3b8e241d285a8423ebb76ff9f7b879\transformed\jetified-barcode-scanning-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] C:\Users\edoua\.gradle\caches\transforms-3\7a3b8e241d285a8423ebb76ff9f7b879\transformed\jetified-barcode-scanning-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\edoua\.gradle\caches\transforms-3\c4c617c7f831f7f5d49f436ae622f2a9\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\edoua\.gradle\caches\transforms-3\c4c617c7f831f7f5d49f436ae622f2a9\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\9357b50e557d778ec8f7da5078765380\transformed\jetified-barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\9357b50e557d778ec8f7da5078765380\transformed\jetified-barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\edoua\.gradle\caches\transforms-3\597bc2f315907095cedb11c128b66c89\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\edoua\.gradle\caches\transforms-3\597bc2f315907095cedb11c128b66c89\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\eeabb11cfa0d4418bb33f43f7d28e2cf\transformed\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\eeabb11cfa0d4418bb33f43f7d28e2cf\transformed\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4d9270058ffebccbff858a2e7f2e6b64\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4d9270058ffebccbff858a2e7f2e6b64\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\e6050a17507ee1b1712dc20c5dee08f9\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\e6050a17507ee1b1712dc20c5dee08f9\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\edoua\.gradle\caches\transforms-3\ae97b883e973283307ca70b833abba38\transformed\jetified-vision-interfaces-16.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\edoua\.gradle\caches\transforms-3\ae97b883e973283307ca70b833abba38\transformed\jetified-vision-interfaces-16.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\edoua\.gradle\caches\transforms-3\5e1537ca53ae423c39b21f9b9be21a6c\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\edoua\.gradle\caches\transforms-3\5e1537ca53ae423c39b21f9b9be21a6c\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\85be5ad3a7e61f9795749cd7779b2293\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\85be5ad3a7e61f9795749cd7779b2293\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\4b086ec179f4dea705fa003150dd2850\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\4b086ec179f4dea705fa003150dd2850\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.5] C:\Users\edoua\.gradle\caches\transforms-3\afe3f83827547fee056f038e5508eed6\transformed\fragment-1.5.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.5] C:\Users\edoua\.gradle\caches\transforms-3\afe3f83827547fee056f038e5508eed6\transformed\fragment-1.5.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\73bf9dc97615714cf23204b1a7d42ad2\transformed\jetified-activity-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\73bf9dc97615714cf23204b1a7d42ad2\transformed\jetified-activity-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\e16be356685ff7aa417015c24631acb8\transformed\jetified-activity-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\e16be356685ff7aa417015c24631acb8\transformed\jetified-activity-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\b26ca8fb46992a0e05f9a42ae7a4b1d5\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\b26ca8fb46992a0e05f9a42ae7a4b1d5\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\31540f4b387a452ea287c293f535b716\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\31540f4b387a452ea287c293f535b716\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\a714ca0a446dccfe47ed2a398481e3f7\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\a714ca0a446dccfe47ed2a398481e3f7\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\53cae047f57dbf011dafe324e5a9fa78\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\53cae047f57dbf011dafe324e5a9fa78\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\9e8be09d0a3b9c9629e229d5d6f292f4\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\9e8be09d0a3b9c9629e229d5d6f292f4\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\5dcd0afc97b069d9315747100a3c4993\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\5dcd0afc97b069d9315747100a3c4993\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\308a44ca8f2208495ac9cc607269f0b0\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\308a44ca8f2208495ac9cc607269f0b0\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\b322bf7932042435c728b83a919ef40e\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\b322bf7932042435c728b83a919ef40e\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\c09cadfa6f3af7b392a25609b42421f1\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\c09cadfa6f3af7b392a25609b42421f1\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\45a8bc146f2c3cd72ce4d3997227a069\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\45a8bc146f2c3cd72ce4d3997227a069\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\e3fd4e23262dfa44cb725a7536c95604\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\e3fd4e23262dfa44cb725a7536c95604\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\e7b7398ffa5c0f1b8be4693d61a67331\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\e7b7398ffa5c0f1b8be4693d61a67331\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\bb8f2957f2bee75f8a8e4f7fc6f9389f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\bb8f2957f2bee75f8a8e4f7fc6f9389f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\9935c3357744ddcf9579311f96f30836\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\9935c3357744ddcf9579311f96f30836\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4469af39f7086375dbd04b2f78af79c6\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4469af39f7086375dbd04b2f78af79c6\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\582b49010fa79cd407b14d8b65f47b2f\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\edoua\.gradle\caches\transforms-3\582b49010fa79cd407b14d8b65f47b2f\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\d8ccdf087bcf9caba4b2a0acc3be4389\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\d8ccdf087bcf9caba4b2a0acc3be4389\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4ddcb99b11a2105103c6ecb5c6c46d2a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4ddcb99b11a2105103c6ecb5c6c46d2a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\edoua\.gradle\caches\transforms-3\4c04aea934a789e346649fb84802fded\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\edoua\.gradle\caches\transforms-3\4c04aea934a789e346649fb84802fded\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\520b15beea1129ab26ae7765b7b2dc52\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\520b15beea1129ab26ae7765b7b2dc52\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\61b18448b3edb4c3754a316b062dfe3f\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\61b18448b3edb4c3754a316b062dfe3f\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\b73ca0768c0ff0dd1f64f2adc61aacc7\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\b73ca0768c0ff0dd1f64f2adc61aacc7\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\2c0798baff9e69d65f65f7204f6726a7\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\2c0798baff9e69d65f65f7204f6726a7\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:rules:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\2504b6f4e5d11b4c08b732ac409a88d0\transformed\rules-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:rules:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\2504b6f4e5d11b4c08b732ac409a88d0\transformed\rules-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.5.2] C:\Users\edoua\.gradle\caches\transforms-3\b8c7aac791727de3a7bb1675e669a334\transformed\runner-1.5.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.5.2] C:\Users\edoua\.gradle\caches\transforms-3\b8c7aac791727de3a7bb1675e669a334\transformed\runner-1.5.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.polidea.rxandroidble2:mockclient:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\52a711508d86f71c530111f37a0f0abe\transformed\jetified-mockclient-1.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.polidea.rxandroidble2:mockclient:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\52a711508d86f71c530111f37a0f0abe\transformed\jetified-mockclient-1.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\7be65115ec5498de865921cf796273c9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\7be65115ec5498de865921cf796273c9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\9e49982c9fb8096151d38c2dff56c4cd\transformed\jetified-lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\9e49982c9fb8096151d38c2dff56c4cd\transformed\jetified-lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\edoua\.gradle\caches\transforms-3\9963054e1a175b13d9bf17917295dc1c\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\edoua\.gradle\caches\transforms-3\9963054e1a175b13d9bf17917295dc1c\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\023c5bc4d8443b92b48cccb2c4f85781\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\edoua\.gradle\caches\transforms-3\023c5bc4d8443b92b48cccb2c4f85781\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\edoua\.gradle\caches\transforms-3\d7c458f3ccf329eb90273fc1b52938d5\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\edoua\.gradle\caches\transforms-3\d7c458f3ccf329eb90273fc1b52938d5\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\edoua\.gradle\caches\transforms-3\1823118a89b8c2bcab35823845e8b3bb\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\edoua\.gradle\caches\transforms-3\1823118a89b8c2bcab35823845e8b3bb\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\edoua\.gradle\caches\transforms-3\367e9c6be8052a06b78eee2b5f115002\transformed\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\edoua\.gradle\caches\transforms-3\367e9c6be8052a06b78eee2b5f115002\transformed\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\edoua\.gradle\caches\transforms-3\4f7c78b3dda284810dd47d314f66bc32\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\edoua\.gradle\caches\transforms-3\4f7c78b3dda284810dd47d314f66bc32\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.test.services:storage:1.4.2] C:\Users\edoua\.gradle\caches\transforms-3\6364b0c3ef3061f18d2bc054389ea9e3\transformed\jetified-storage-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.services:storage:1.4.2] C:\Users\edoua\.gradle\caches\transforms-3\6364b0c3ef3061f18d2bc054389ea9e3\transformed\jetified-storage-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\e6b30f6b63e66626d6619f4eab4a2a99\transformed\monitor-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.6.1] C:\Users\edoua\.gradle\caches\transforms-3\e6b30f6b63e66626d6619f4eab4a2a99\transformed\monitor-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\ccaee994b2f5025f10c51a456aa85e50\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\ccaee994b2f5025f10c51a456aa85e50\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\b35c197adf093484085557832cb49643\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\b35c197adf093484085557832cb49643\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:annotation:1.0.1] C:\Users\edoua\.gradle\caches\transforms-3\425d4b7af8d6541a4ab5c7213a844bd7\transformed\jetified-annotation-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:annotation:1.0.1] C:\Users\edoua\.gradle\caches\transforms-3\425d4b7af8d6541a4ab5c7213a844bd7\transformed\jetified-annotation-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\edoua\.gradle\caches\transforms-3\544d22e3a61ecb7a05a1a60866a4a2c8\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\edoua\.gradle\caches\transforms-3\544d22e3a61ecb7a05a1a60866a4a2c8\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\45653d793322ab70b4d5516d2bd1c7da\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\45653d793322ab70b4d5516d2bd1c7da\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\904a202759ad7e25828d41eecb470f8f\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\904a202759ad7e25828d41eecb470f8f\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\ff85a96e9e0e7a8763ec5b3d0eb42d49\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\ff85a96e9e0e7a8763ec5b3d0eb42d49\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\9ec0746b947eb7a0de2e9f0a05b9d50e\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\edoua\.gradle\caches\transforms-3\9ec0746b947eb7a0de2e9f0a05b9d50e\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\edoua\.gradle\caches\transforms-3\2760ec29a54a83276b17a2387b4748be\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\edoua\.gradle\caches\transforms-3\2760ec29a54a83276b17a2387b4748be\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\edoua\.gradle\caches\transforms-3\012e6fcf9ce42d08a73395139db6b9e1\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\edoua\.gradle\caches\transforms-3\012e6fcf9ce42d08a73395139db6b9e1\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\edoua\.gradle\caches\transforms-3\c70e877c022ec7d73b87e648760bbc49\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\edoua\.gradle\caches\transforms-3\c70e877c022ec7d73b87e648760bbc49\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\edoua\Desktop\plateforme_metabo\MAPP_tracking_application\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:10:5-12:40
+	tools:ignore
+		ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:12:9-37
+	android:name
+		ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:11:9-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:13:5-15:38
+	android:maxSdkVersion
+		ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:15:9-35
+	android:name
+		ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:14:9-64
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:16:5-86
+	android:name
+		ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:16:22-83
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:18:5-74
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:13:5-15:38
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:13:5-15:38
+	android:maxSdkVersion
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:15:9-35
+	android:name
+		ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:18:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from [com.bradyid:BradySdk:1.4.4] C:\Users\edoua\.gradle\caches\transforms-3\badeaa97210c33339f387ea77b116798\transformed\jetified-BradySdk-1.4.4\AndroidManifest.xml:25:22-78
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\77718fee2c4c299d1b09ce1f1703b7ff\transformed\jetified-camera-camera2-1.3.0\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\bc7fde59d3c2c02b3a6afc081979cd43\transformed\jetified-camera-core-1.3.0\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\bc7fde59d3c2c02b3a6afc081979cd43\transformed\jetified-camera-core-1.3.0\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\77718fee2c4c299d1b09ce1f1703b7ff\transformed\jetified-camera-camera2-1.3.0\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\77718fee2c4c299d1b09ce1f1703b7ff\transformed\jetified-camera-camera2-1.3.0\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\77718fee2c4c299d1b09ce1f1703b7ff\transformed\jetified-camera-camera2-1.3.0\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\77718fee2c4c299d1b09ce1f1703b7ff\transformed\jetified-camera-camera2-1.3.0\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\77718fee2c4c299d1b09ce1f1703b7ff\transformed\jetified-camera-camera2-1.3.0\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\77718fee2c4c299d1b09ce1f1703b7ff\transformed\jetified-camera-camera2-1.3.0\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\77718fee2c4c299d1b09ce1f1703b7ff\transformed\jetified-camera-camera2-1.3.0\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\edoua\.gradle\caches\transforms-3\77718fee2c4c299d1b09ce1f1703b7ff\transformed\jetified-camera-camera2-1.3.0\AndroidManifest.xml:31:17-103
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\edoua\.gradle\caches\transforms-3\c4c617c7f831f7f5d49f436ae622f2a9\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\edoua\.gradle\caches\transforms-3\597bc2f315907095cedb11c128b66c89\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\edoua\.gradle\caches\transforms-3\597bc2f315907095cedb11c128b66c89\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\edoua\.gradle\caches\transforms-3\c4c617c7f831f7f5d49f436ae622f2a9\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\edoua\.gradle\caches\transforms-3\c4c617c7f831f7f5d49f436ae622f2a9\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\edoua\.gradle\caches\transforms-3\c4c617c7f831f7f5d49f436ae622f2a9\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\edoua\.gradle\caches\transforms-3\c4c617c7f831f7f5d49f436ae622f2a9\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\edoua\.gradle\caches\transforms-3\c4c617c7f831f7f5d49f436ae622f2a9\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\edoua\.gradle\caches\transforms-3\597bc2f315907095cedb11c128b66c89\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\edoua\.gradle\caches\transforms-3\597bc2f315907095cedb11c128b66c89\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\edoua\.gradle\caches\transforms-3\597bc2f315907095cedb11c128b66c89\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\edoua\.gradle\caches\transforms-3\b726ddad80a9a793c20b3bb67ca8f53f\transformed\jetified-common-18.9.0\AndroidManifest.xml:21:17-120
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\eeabb11cfa0d4418bb33f43f7d28e2cf\transformed\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4d9270058ffebccbff858a2e7f2e6b64\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\4d9270058ffebccbff858a2e7f2e6b64\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\edoua\.gradle\caches\transforms-3\eeabb11cfa0d4418bb33f43f7d28e2cf\transformed\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:23:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\e6050a17507ee1b1712dc20c5dee08f9\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\e6050a17507ee1b1712dc20c5dee08f9\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\e6050a17507ee1b1712dc20c5dee08f9\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\e6050a17507ee1b1712dc20c5dee08f9\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\4b086ec179f4dea705fa003150dd2850\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\4b086ec179f4dea705fa003150dd2850\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\edoua\.gradle\caches\transforms-3\4b086ec179f4dea705fa003150dd2850\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\edoua\.gradle\caches\transforms-3\4c04aea934a789e346649fb84802fded\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\edoua\.gradle\caches\transforms-3\4c04aea934a789e346649fb84802fded\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\ccaee994b2f5025f10c51a456aa85e50\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\edoua\.gradle\caches\transforms-3\ccaee994b2f5025f10c51a456aa85e50\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\edoua\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#org.example.mapptracking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#org.example.mapptracking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\edoua\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\edoua\.gradle\caches\transforms-3\4c04aea934a789e346649fb84802fded\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\edoua\.gradle\caches\transforms-3\4c04aea934a789e346649fb84802fded\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\edoua\.gradle\caches\transforms-3\4c04aea934a789e346649fb84802fded\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+uses-permission#android.permission.REORDER_TASKS
+ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:24:22-69
+activity#androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:27:9-34:20
+	android:exported
+		ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:29:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:28:13-99
+intent-filter#category:name:android.intent.category.LAUNCHER
+ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:35:9-42:20
+	android:exported
+		ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:37:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:36:13-95
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:43:9-50:20
+	android:exported
+		ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:45:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:46:13-62
+	android:name
+		ADDED from [androidx.test:core:1.5.0] C:\Users\edoua\.gradle\caches\transforms-3\64bca5d1810ed0d0b0563c9d54e630a4\transformed\jetified-core-1.5.0\AndroidManifest.xml:44:13-103
+queries
+ADDED from [androidx.test:runner:1.5.2] C:\Users\edoua\.gradle\caches\transforms-3\b8c7aac791727de3a7bb1675e669a334\transformed\runner-1.5.2\AndroidManifest.xml:24:5-28:15
+package#androidx.test.orchestrator
+ADDED from [androidx.test:runner:1.5.2] C:\Users\edoua\.gradle\caches\transforms-3\b8c7aac791727de3a7bb1675e669a334\transformed\runner-1.5.2\AndroidManifest.xml:25:9-62
+	android:name
+		ADDED from [androidx.test:runner:1.5.2] C:\Users\edoua\.gradle\caches\transforms-3\b8c7aac791727de3a7bb1675e669a334\transformed\runner-1.5.2\AndroidManifest.xml:25:18-59
+package#androidx.test.services
+ADDED from [androidx.test:runner:1.5.2] C:\Users\edoua\.gradle\caches\transforms-3\b8c7aac791727de3a7bb1675e669a334\transformed\runner-1.5.2\AndroidManifest.xml:26:9-58
+	android:name
+		ADDED from [androidx.test:runner:1.5.2] C:\Users\edoua\.gradle\caches\transforms-3\b8c7aac791727de3a7bb1675e669a334\transformed\runner-1.5.2\AndroidManifest.xml:26:18-55
+package#com.google.android.apps.common.testing.services
+ADDED from [androidx.test:runner:1.5.2] C:\Users\edoua\.gradle\caches\transforms-3\b8c7aac791727de3a7bb1675e669a334\transformed\runner-1.5.2\AndroidManifest.xml:27:9-83
+	android:name
+		ADDED from [androidx.test:runner:1.5.2] C:\Users\edoua\.gradle\caches\transforms-3\b8c7aac791727de3a7bb1675e669a334\transformed\runner-1.5.2\AndroidManifest.xml:27:18-80
+uses-permission-sdk-23#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:18:5-88
+	android:name
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:18:29-85
+uses-permission-sdk-23#android.permission.ACCESS_FINE_LOCATION
+ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\edoua\.gradle\caches\transforms-3\dcf670c906e422686972973f278507bb\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:19:29-83
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\edoua\.gradle\caches\transforms-3\5edf1b2e4c338da645275f5bce48c330\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\edoua\.gradle\caches\transforms-3\73f77b9428b45d6872bd44e396707713\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132

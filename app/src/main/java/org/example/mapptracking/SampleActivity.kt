@@ -38,6 +38,7 @@ import java.io.OutputStream
 import java.net.HttpURLConnection
 import java.net.URL
 
+@Suppress("NAME_SHADOWING")
 class SampleActivity : AppCompatActivity() {
 
     private lateinit var batchSpinnerLabel: TextView

@@ -172,10 +172,6 @@
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "org.example.mapptracking.app-merged_res-43:/raw_template_mapp.BWT.flat",
-        "source": "org.example.mapptracking.app-main-45:/raw/template_mapp.BWT"
-    },
-    {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_weighting.xml.flat",
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_weighting.xml"
     },

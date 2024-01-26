@@ -31,7 +31,6 @@ class PrintActivity : AppCompatActivity() {
     private lateinit var flashlightButton: Button
     private lateinit var scanStatus: TextView
 
-    private var isObjectScanActive = false
     private var isQrScannerActive = false
 
     @SuppressLint("SetTextI18n")
@@ -51,8 +50,6 @@ class PrintActivity : AppCompatActivity() {
 
         // Set up button click listener for Object QR Scanner
         scanButtonPrinting.setOnClickListener {
-            isObjectScanActive = false
-            isQrScannerActive = true
             previewView.visibility = View.VISIBLE
             scanStatus.text = "Scan the sample"
             flashlightButton.visibility = View.VISIBLE
@@ -81,15 +78,9 @@ class PrintActivity : AppCompatActivity() {
         CoroutineScope(Dispatchers.IO).launch {
             withContext(Dispatchers.Main) {
 
-                        if (isObjectScanActive) {
-
-                            val sampleId = scanButtonPrinting.text.toString()
-                            showToast("sample id: $sampleId")
-                            CoroutineScope(Dispatchers.IO).launch {
-                                printLabel(
-                                    sampleId)
-                            }
-                        }
+                val sampleId = scanButtonPrinting.text.toString()
+                printLabel(
+                    sampleId)
                     }
                 }
             }
@@ -153,6 +144,8 @@ class PrintActivity : AppCompatActivity() {
             }
             val printThread = Thread(r)
             printThread.start()
+
+            showToast("printing $sampleId...")
 
             delay(1500)
             scanButtonPrinting.performClick()

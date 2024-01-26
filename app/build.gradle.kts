@@ -6,11 +6,11 @@ plugins {
 android {
     signingConfigs {
         create("release") {
-            keyAlias = "mappikey"
+            keyAlias = "mappkey"
             keyPassword = "mapp_mapp"
             storePassword = "mapp_mapp"
             storeFile =
-                file("C:\\Users\\edoua\\Desktop\\plateforme_metabo\\MAPP_tracking_application\\mappkey.kts")
+                file("C:\\Users\\edoua\\Desktop\\plateforme_metabo\\MAPP_tracking_application\\mappkey.jks")
         }
     }
     namespace = "org.example.mapptracking"
@@ -22,7 +22,7 @@ android {
         //noinspection OldTargetApi
         targetSdk = 33
         versionCode = 1
-        versionName = "0.1"
+        versionName = "0.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

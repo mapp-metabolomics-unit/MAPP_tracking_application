@@ -710,7 +710,7 @@ class SampleActivity : AppCompatActivity() {
 
                     for (i in 0 until jsonArray.length()) {
                         val jsonObject = jsonArray.getJSONObject(i)
-                        val value = jsonObject.getString("Sample_ID_original")
+                        val value = jsonObject.getString("sample_id")
                         val id = jsonObject.getString("Id")
                         ids[value] = id
                     }

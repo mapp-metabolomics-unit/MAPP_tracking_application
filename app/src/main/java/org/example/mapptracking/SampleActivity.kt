@@ -7,6 +7,7 @@
 package org.example.mapptracking
 
 import android.annotation.SuppressLint
+import android.graphics.Color
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -41,6 +42,7 @@ import java.net.URL
 @Suppress("NAME_SHADOWING")
 class SampleActivity : AppCompatActivity() {
 
+    private lateinit var printerStatus: TextView
     private lateinit var batchSpinnerLabel: TextView
     private lateinit var batchSpinner: Spinner
     private lateinit var batchSpinnerInformation: TextView
@@ -68,6 +70,7 @@ class SampleActivity : AppCompatActivity() {
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_back_arrow)
 
         // Initialize views
+        printerStatus = findViewById(R.id.printerStatus)
         batchSpinnerLabel = findViewById(R.id.batchSpinnerLabel)
         batchSpinner = findViewById(R.id.batchSpinner)
         batchSpinnerInformation = findViewById(R.id.batchSpinnerInformation)
@@ -79,6 +82,17 @@ class SampleActivity : AppCompatActivity() {
         previewView = findViewById(R.id.previewView)
         flashlightButton = findViewById(R.id.flashlightButton)
         scanStatus = findViewById(R.id.scanStatus)
+
+        val isPrinterConnected = intent.getStringExtra("IS_PRINTER_CONNECTED")
+
+        if(isPrinterConnected == "yes"){
+
+            printerStatus.setTextColor(Color.GREEN)
+            printerStatus.text = "Printer connected"
+        } else {
+            printerStatus.setTextColor(Color.RED)
+            printerStatus.text = "No printer"
+        }
 
         // Fetch values and populate spinner
         fetchValuesAndPopulateBatchSpinner()
@@ -425,7 +439,7 @@ class SampleActivity : AppCompatActivity() {
         val tableId = "mifbpx143i29sjf" // Replace with your table ID
         val link2Control = "c589dtcb5sj3jfn"
         val linkMAPPBatch = "cqdqhdh11r7j13e"
-        val linkMetadata = "cytjr67dejq7osc"
+        val linkMetadata = "cshs45dookxr7c2"
 
         val apiUrlPost = "http://134.21.20.118:8080/api/v2/tables/$tableId/records"
         val urlPost = URL(apiUrlPost)
@@ -583,74 +597,78 @@ class SampleActivity : AppCompatActivity() {
                 val linkMResponseCode = linkMUrlConnection.responseCode
                 println(linkMResponseCode)
 
+                if(metadataId != null) {
+
                     // 'response' contains the JSON response from the server
-                showToast("Database correctly updated")
+                    showToast("Database correctly updated")
 
-                val mappId = getMappId(ncRecordId)
+                    val mappId = getMappId(ncRecordId)
 
-                showToast("mapp code: $mappId")
+                    // print label here
+                    val isPrinterConnected = intent.getStringExtra("IS_PRINTER_CONNECTED")
+                    showToast("is printer connected: $isPrinterConnected")
+                    if (isPrinterConnected == "yes") {
+                        val printerDetails = PrinterDetailsSingleton.printerDetails
+                        // Specify the name of the template file you want to use.
+                        val selectedFileName = "template_mapp"
 
-                // print label here
-                val isPrinterConnected = intent.getStringExtra("IS_PRINTER_CONNECTED")
-                if (isPrinterConnected == "yes") {
-                    val printerDetails = PrinterDetailsSingleton.printerDetails
-                    // Specify the name of the template file you want to use.
-                    val selectedFileName = "template_mapp"
-
-                    // Initialize an input stream by opening the specified file.
-                    val iStream = resources.openRawResource(
-                        resources.getIdentifier(
-                            selectedFileName, "raw",
-                            packageName
-                        )
-                    )
-
-                    val parts = mappId.toString().split("_")
-                    val labBook = "_" + parts[1]
-                    val page = "_" + parts[2]
-                    val variant = "_" + parts[3]
-
-                    // Call the SDK method ".getTemplate()" to retrieve its Template Object
-                    val template =
-                        TemplateFactory.getTemplate(iStream, this@SampleActivity)
-                    // Simple way to iterate through any placeholders to set desired values.
-                    for (placeholder in template.templateData) {
-                        when (placeholder.name) {
-                            "QR" -> {
-                                placeholder.value = mappId
-                            }
-                            "labBook" -> {
-                                placeholder.value = labBook
-                            }
-                            "page" -> {
-                                placeholder.value = page
-                            }
-                            "variant" -> {
-                                placeholder.value = variant
-                            }
-                        }
-                    }
-
-                    val printingOptions = PrintingOptions()
-                    printingOptions.cutOption = CutOption.EndOfJob
-                    printingOptions.numberOfCopies = 1
-                    val r = Runnable {
-                        runOnUiThread {
-                            printerDetails.print(
-                                this,
-                                template,
-                                printingOptions,
-                                null
+                        // Initialize an input stream by opening the specified file.
+                        val iStream = resources.openRawResource(
+                            resources.getIdentifier(
+                                selectedFileName, "raw",
+                                packageName
                             )
-                        }
-                    }
-                    val printThread = Thread(r)
-                    printThread.start()
-                }
+                        )
 
-                withContext(Dispatchers.Main) {
-                    delay(1500)
-                    scanButtonSample.performClick()
+                        val parts = mappId.toString().split("_")
+                        val labBook = "_" + parts[1]
+                        val page = "_" + parts[2]
+                        val variant = "_" + parts[3]
+
+                        // Call the SDK method ".getTemplate()" to retrieve its Template Object
+                        val template =
+                            TemplateFactory.getTemplate(iStream, this@SampleActivity)
+                        // Simple way to iterate through any placeholders to set desired values.
+                        for (placeholder in template.templateData) {
+                            when (placeholder.name) {
+                                "QR" -> {
+                                    placeholder.value = mappId
+                                }
+                                "labBook" -> {
+                                    placeholder.value = labBook
+                                }
+                                "page" -> {
+                                    placeholder.value = page
+                                }
+                                "variant" -> {
+                                    placeholder.value = variant
+                                }
+                            }
+                        }
+
+                        val printingOptions = PrintingOptions()
+                        printingOptions.cutOption = CutOption.EndOfJob
+                        printingOptions.numberOfCopies = 1
+                        val r = Runnable {
+                            runOnUiThread {
+                                printerDetails.print(
+                                    this,
+                                    template,
+                                    printingOptions,
+                                    null
+                                )
+                            }
+                        }
+                        val printThread = Thread(r)
+                        printThread.start()
+                    }
+
+                    withContext(Dispatchers.Main) {
+                        delay(1500)
+                        scanButtonSample.performClick()
+                    }
+                } else {
+                    showToast("no sample id $sampleId in metadata")
                 }
 
             } else {
@@ -664,9 +682,8 @@ class SampleActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n", "DiscouragedApi")
     private suspend fun retrieveMetadataId(sampleId: String): String? {
         val accessToken = intent.getStringExtra("ACCESS_TOKEN").toString()
-        val tableId = "mpnz61lt2anwk8s" // Replace with your table ID
-        val viewId = "vwoqm6iyl6k9hr77" // Replace with your view ID
-        val apiUrl = "http://134.21.20.118:8080/api/v2/tables/$tableId/records?viewId=$viewId"
+        val tableId = "m6jbcziwxsp9h89"
+        val apiUrl = "http://134.21.20.118:8080/api/v2/tables/$tableId/records?where=(sample_id,eq,$sampleId)"
         val url = URL(apiUrl)
 
         // Use CompletableDeferred to wait for the result
@@ -706,19 +723,11 @@ class SampleActivity : AppCompatActivity() {
 
                     // Parse JSON response
                     val jsonArray = JSONObject(response.toString()).getJSONArray("list")
-                    val ids = HashMap<String, String>()
-
-                    for (i in 0 until jsonArray.length()) {
-                        val jsonObject = jsonArray.getJSONObject(i)
-                        val value = jsonObject.getString("sample_id")
-                        val id = jsonObject.getString("Id")
-                        ids[value] = id
-                    }
-
-                    val selectedId = ids[sampleId]
+                    val jsonObject = jsonArray.getJSONObject(0)
+                    val id = jsonObject.getString("Id")
 
                     // Set the result to the deferred
-                    resultDeferred.complete(selectedId)
+                    resultDeferred.complete(id)
                 }
 
             } catch (e: Exception) {

@@ -1,2 +1,2 @@
 #- File Locator -
-listingFile=../../../../release/release/output-metadata.json
+listingFile=../../../../release/output-metadata.json

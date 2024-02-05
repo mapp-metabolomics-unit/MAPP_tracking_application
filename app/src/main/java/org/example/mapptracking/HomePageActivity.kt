@@ -33,6 +33,7 @@ class HomePageActivity : AppCompatActivity() {
             intent.putExtra("ACCESS_TOKEN", accessToken)
             intent.putExtra("USERNAME", username)
             intent.putExtra("PASSWORD", password)
+            intent.putExtra("IS_PRINTER_CONNECTED", isPrinterConnected)
             startActivity(intent)
         }
         button2.setOnClickListener {

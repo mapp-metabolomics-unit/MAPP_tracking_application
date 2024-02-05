@@ -1,4 +1,4 @@
-#Fri Jan 26 15:40:42 CET 2024
+#Tue Jan 30 09:41:21 CET 2024
 base.0=C\:\\Users\\edoua\\Desktop\\plateforme_metabo\\MAPP_tracking_application\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 base.1=C\:\\Users\\edoua\\Desktop\\plateforme_metabo\\MAPP_tracking_application\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
 base.2=C\:\\Users\\edoua\\Desktop\\plateforme_metabo\\MAPP_tracking_application\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes3.dex

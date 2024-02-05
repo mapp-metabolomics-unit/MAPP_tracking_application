@@ -6,6 +6,7 @@
 package org.example.mapptracking
 
 import android.annotation.SuppressLint
+import android.graphics.Color
 import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
@@ -25,6 +26,7 @@ import kotlinx.coroutines.withContext
 
 class PrintActivity : AppCompatActivity() {
 
+    private lateinit var printerStatus: TextView
     private lateinit var printLabel: TextView
     private lateinit var scanButtonPrinting: Button
     private lateinit var previewView: PreviewView
@@ -42,11 +44,23 @@ class PrintActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_back_arrow)
 
+        printerStatus = findViewById(R.id.printerStatus)
         printLabel = findViewById(R.id.printLabel)
         scanButtonPrinting = findViewById(R.id.scanButtonPrinting)
         previewView = findViewById(R.id.previewView)
         flashlightButton = findViewById(R.id.flashlightButton)
         scanStatus = findViewById(R.id.scanStatus)
+
+        val isPrinterConnected = intent.getStringExtra("IS_PRINTER_CONNECTED")
+
+        if(isPrinterConnected == "yes"){
+
+            printerStatus.setTextColor(Color.GREEN)
+            printerStatus.text = "Printer connected"
+        } else {
+            printerStatus.setTextColor(Color.RED)
+            printerStatus.text = "No printer"
+        }
 
         // Set up button click listener for Object QR Scanner
         scanButtonPrinting.setOnClickListener {

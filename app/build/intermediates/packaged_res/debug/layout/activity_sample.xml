@@ -5,13 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <TextView
-        android:id="@+id/batchSpinnerLabel"
+        android:id="@+id/printerStatus"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="Select a batch:"
+        android:textSize="10sp"
+        android:text=""
         android:textStyle="bold"
         android:gravity="center"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,6 +19,23 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/batchSpinnerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a batch:"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/printerStatus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        tools:ignore="HardcodedText" />
 
     <Spinner
         android:id="@+id/batchSpinner"

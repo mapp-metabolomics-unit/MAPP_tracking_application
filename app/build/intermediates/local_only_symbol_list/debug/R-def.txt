@@ -33,6 +33,7 @@ id previewView
 id printLabel
 id printerListView
 id printerNameTextView
+id printerStatus
 id scanButtonPrinting
 id scanButtonSample
 id scanStatus

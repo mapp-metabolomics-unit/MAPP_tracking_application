@@ -3418,6 +3418,7 @@ id previewView
 id printLabel
 id printerListView
 id printerNameTextView
+id printerStatus
 id progress_circular
 id progress_horizontal
 id radio

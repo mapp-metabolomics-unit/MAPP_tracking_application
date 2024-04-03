@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DBGI"
+rootProject.name = "MAPP"
 include(":app")

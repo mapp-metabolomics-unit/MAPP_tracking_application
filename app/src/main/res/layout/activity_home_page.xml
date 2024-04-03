@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:gravity="center"
-    tools:context=".`4HomePageActivity`">
+    tools:context=".`HomePageActivity`">
 
     <Button
         android:id="@+id/SampleButton"

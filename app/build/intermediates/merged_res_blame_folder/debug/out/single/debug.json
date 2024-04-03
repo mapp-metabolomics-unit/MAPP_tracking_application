@@ -16,16 +16,16 @@
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
+        "merged": "org.example.mapptracking.app-merged_res-43:/layout_activity_home_page.xml.flat",
+        "source": "org.example.mapptracking.app-main-45:/layout/activity_home_page.xml"
+    },
+    {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_location.xml.flat",
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\layout\\activity_location.xml"
-    },
-    {
-        "merged": "org.example.mapptracking.app-merged_res-43:/layout_activity_print.xml.flat",
-        "source": "org.example.mapptracking.app-main-45:/layout/activity_print.xml"
     },
     {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\drawable_ic_back_arrow.xml.flat",
@@ -134,6 +134,10 @@
     {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\raw_template_mapp.BWT.flat",
         "source": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-main-45:\\raw\\template_mapp.BWT"
+    },
+    {
+        "merged": "org.example.mapptracking.app-merged_res-43:/raw_template_dbgi_m511.BWT.flat",
+        "source": "org.example.mapptracking.app-main-45:/raw/template_dbgi_m511.BWT"
     },
     {
         "merged": "C:\\Users\\edoua\\.gradle\\daemon\\8.0\\org.example.mapptracking.app-merged_res-43:\\layout_activity_home_page.xml.flat",

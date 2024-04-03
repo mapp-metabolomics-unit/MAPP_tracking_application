@@ -50,6 +50,7 @@ layout printer_list_item
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+raw template_dbgi_m511
 raw template_mapp
 string app_name
 style Theme.DBGITracking
